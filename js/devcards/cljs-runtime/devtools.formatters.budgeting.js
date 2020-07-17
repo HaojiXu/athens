@@ -60,16 +60,16 @@ throw (new Error("Assert failed: (not (neg? depth-budget))"));
 var data = cljs.core.second(object_reference);
 var _ = ((cljs.core.object_QMARK_(data))?null:(function(){throw (new Error("Assert failed: (object? data)"))})());
 var config = (data["config"]);
-var G__24099 = data;
-var target__20775__auto__ = G__24099;
-if(cljs.core.truth_(target__20775__auto__)){
+var G__24096 = data;
+var target__20774__auto__ = G__24096;
+if(cljs.core.truth_(target__20774__auto__)){
 } else {
-throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24099)].join(''),"\n","target__20775__auto__"].join('')));
+throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24096)].join(''),"\n","target__20774__auto__"].join('')));
 }
 
-(target__20775__auto__["config"] = devtools.formatters.state.set_depth_budget(config,depth_budget));
+(target__20774__auto__["config"] = devtools.formatters.state.set_depth_budget(config,depth_budget));
 
-return G__24099;
+return G__24096;
 });
 devtools.formatters.budgeting.distribute_budget_BANG_ = (function devtools$formatters$budgeting$distribute_budget_BANG_(json_ml,depth_budget){
 if((!((depth_budget < (0))))){

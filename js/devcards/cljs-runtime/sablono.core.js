@@ -186,7 +186,7 @@ return sablono.core.include_js("http://fb.me/react-0.12.2.js");
 /**
  * Wraps some content in a HTML hyperlink with the supplied URL.
  */
-sablono.core.link_to41840 = (function sablono$core$link_to41840(var_args){
+sablono.core.link_to41839 = (function sablono$core$link_to41839(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___41987 = arguments.length;
 var i__4790__auto___41988 = (0);
@@ -203,17 +203,17 @@ break;
 }
 
 var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.IndexedSeq(args__4795__auto__.slice((1)),(0),null)):null);
-return sablono.core.link_to41840.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
+return sablono.core.link_to41839.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.link_to41840.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
+(sablono.core.link_to41839.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),sablono.util.as_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([url], 0))], null),content], null);
 }));
 
-(sablono.core.link_to41840.cljs$lang$maxFixedArity = (1));
+(sablono.core.link_to41839.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.link_to41840.cljs$lang$applyTo = (function (seq41842){
+(sablono.core.link_to41839.cljs$lang$applyTo = (function (seq41842){
 var G__41843 = cljs.core.first(seq41842);
 var seq41842__$1 = cljs.core.next(seq41842);
 var self__4776__auto__ = this;
@@ -221,7 +221,7 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41843,seq41842
 }));
 
 
-sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to41840);
+sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to41839);
 /**
  * Wraps some content in a HTML hyperlink with the supplied e-mail
  *   address. If no content provided use the e-mail address as content.

@@ -297,14 +297,14 @@ return null;
  */
 devtools.munging.detect_namespace_prefix = (function devtools$munging$detect_namespace_prefix(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23761 = arguments.length;
-var i__4790__auto___23762 = (0);
+var len__4789__auto___23763 = arguments.length;
+var i__4790__auto___23764 = (0);
 while(true){
-if((i__4790__auto___23762 < len__4789__auto___23761)){
-args__4795__auto__.push((arguments[i__4790__auto___23762]));
+if((i__4790__auto___23764 < len__4789__auto___23763)){
+args__4795__auto__.push((arguments[i__4790__auto___23764]));
 
-var G__23763 = (i__4790__auto___23762 + (1));
-i__4790__auto___23762 = G__23763;
+var G__23766 = (i__4790__auto___23764 + (1));
+i__4790__auto___23764 = G__23766;
 continue;
 } else {
 }

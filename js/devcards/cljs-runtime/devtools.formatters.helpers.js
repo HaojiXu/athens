@@ -72,7 +72,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23764){var _e__20777__auto__ = e23764;
+}catch (e23761){var _e__20777__auto__ = e23761;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto____$1)){
@@ -91,7 +91,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23766){var _e__20777__auto__ = e23766;
+}catch (e23765){var _e__20777__auto__ = e23765;
 return false;
 }}
 }

@@ -131,9 +131,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (garden.stylesheet.at_font_face.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34820){
+(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34819){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34820));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34819));
 }));
 
 /**

@@ -134,13 +134,13 @@ return null;
 /**
  * Converts stylefy/supports definition into CSS feature query.
  */
-stylefy.impl.conversion.convert_supports_rules = (function stylefy$impl$conversion$convert_supports_rules(p__34887,options){
-var map__34888 = p__34887;
-var map__34888__$1 = (((((!((map__34888 == null))))?(((((map__34888.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34888.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34888):map__34888);
-var style = map__34888__$1;
-var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34888__$1,new cljs.core.Keyword(null,"props","props",453281727));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34888__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
-var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34888__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
+stylefy.impl.conversion.convert_supports_rules = (function stylefy$impl$conversion$convert_supports_rules(p__34879,options){
+var map__34880 = p__34879;
+var map__34880__$1 = (((((!((map__34880 == null))))?(((((map__34880.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34880.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34880):map__34880);
+var style = map__34880__$1;
+var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34880__$1,new cljs.core.Keyword(null,"props","props",453281727));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34880__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34880__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
 var temp__5735__auto__ = new cljs.core.Keyword("stylefy.core","supports","stylefy.core/supports",105019324).cljs$core$IFn$_invoke$arity$1(props);
 if(cljs.core.truth_(temp__5735__auto__)){
 var stylefy_supports = temp__5735__auto__;
@@ -175,8 +175,8 @@ return null;
 /**
  * Converts stylefy/manual definition into CSS.
  */
-stylefy.impl.conversion.convert_manual_styles = (function stylefy$impl$conversion$convert_manual_styles(p__34893,options){
-var map__34894 = p__34893;
+stylefy.impl.conversion.convert_manual_styles = (function stylefy$impl$conversion$convert_manual_styles(p__34892,options){
+var map__34894 = p__34892;
 var map__34894__$1 = (((((!((map__34894 == null))))?(((((map__34894.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34894.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34894):map__34894);
 var style = map__34894__$1;
 var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34894__$1,new cljs.core.Keyword(null,"props","props",453281727));
@@ -193,11 +193,11 @@ return stylefy.impl.conversion.class_selector(hash);
 }
 })();
 var css_manual_styles = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (manual_style){
-var manual_selector_and_css_props = clojure.walk.walk((function (p1__34892_SHARP_){
-if(cljs.core.map_QMARK_(p1__34892_SHARP_)){
-return stylefy.impl.utils.remove_special_keywords(p1__34892_SHARP_);
+var manual_selector_and_css_props = clojure.walk.walk((function (p1__34890_SHARP_){
+if(cljs.core.map_QMARK_(p1__34890_SHARP_)){
+return stylefy.impl.utils.remove_special_keywords(p1__34890_SHARP_);
 } else {
-return p1__34892_SHARP_;
+return p1__34890_SHARP_;
 }
 }),cljs.core.identity,manual_style);
 var garden_style_definition = cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [css_parent_selector], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [manual_selector_and_css_props], null));
