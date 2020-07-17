@@ -203,8 +203,8 @@ continue;
 break;
 }
 
-var G__59597 = vals;
-vals = G__59597;
+var G__59598 = vals;
+vals = G__59598;
 continue;
 } else {
 if(edamame.impl.parser.non_match_QMARK_(next_val)){

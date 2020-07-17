@@ -13,14 +13,14 @@ return cljs.core.with_meta(value,new cljs.core.PersistentArrayMap(null, 1, [new 
 });
 devtools.formatters.printing.build_markup = (function devtools$formatters$printing$build_markup(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23847 = arguments.length;
-var i__4790__auto___23848 = (0);
+var len__4789__auto___23849 = arguments.length;
+var i__4790__auto___23850 = (0);
 while(true){
-if((i__4790__auto___23848 < len__4789__auto___23847)){
-args__4795__auto__.push((arguments[i__4790__auto___23848]));
+if((i__4790__auto___23850 < len__4789__auto___23849)){
+args__4795__auto__.push((arguments[i__4790__auto___23850]));
 
-var G__23849 = (i__4790__auto___23848 + (1));
-i__4790__auto___23848 = G__23849;
+var G__23851 = (i__4790__auto___23850 + (1));
+i__4790__auto___23850 = G__23851;
 continue;
 } else {
 }
@@ -44,13 +44,13 @@ return devtools.formatters.printing.mark_as_markup(cljs.core.apply.cljs$core$IFn
 (devtools.formatters.printing.build_markup.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.formatters.printing.build_markup.cljs$lang$applyTo = (function (seq23802){
-var G__23804 = cljs.core.first(seq23802);
-var seq23802__$1 = cljs.core.next(seq23802);
-var G__23808 = cljs.core.first(seq23802__$1);
-var seq23802__$2 = cljs.core.next(seq23802__$1);
+(devtools.formatters.printing.build_markup.cljs$lang$applyTo = (function (seq23801){
+var G__23802 = cljs.core.first(seq23801);
+var seq23801__$1 = cljs.core.next(seq23801);
+var G__23803 = cljs.core.first(seq23801__$1);
+var seq23801__$2 = cljs.core.next(seq23801__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23804,G__23808,seq23802__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23802,G__23803,seq23801__$2);
 }));
 
 devtools.formatters.printing.wrap_value_as_reference_if_needed = (function devtools$formatters$printing$wrap_value_as_reference_if_needed(markup_db,value){
@@ -180,9 +180,9 @@ devtools.formatters.printing.post_process_printed_output = (function devtools$fo
 return devtools.formatters.printing.wrap_group_in_meta_if_needed(devtools.formatters.printing.wrap_group_in_circular_warning_if_needed(devtools.formatters.printing.wrap_group_in_reference_if_needed(devtools.formatters.printing.detect_edge_case_and_patch_it(output_group,obj,markup_db),obj,markup_db),markup_db,circular_QMARK_),obj,markup_db);
 });
 devtools.formatters.printing.alt_printer_job = (function devtools$formatters$printing$alt_printer_job(obj,writer,opts){
-var map__23821 = opts;
-var map__23821__$1 = (((((!((map__23821 == null))))?(((((map__23821.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__23821.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__23821):map__23821);
-var markup_db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23821__$1,new cljs.core.Keyword(null,"markup-db","markup-db",812838734));
+var map__23823 = opts;
+var map__23823__$1 = (((((!((map__23823 == null))))?(((((map__23823.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__23823.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__23823):map__23823);
+var markup_db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23823__$1,new cljs.core.Keyword(null,"markup-db","markup-db",812838734));
 if(cljs.core.truth_((function (){var or__4185__auto__ = (function (){try{if((!((obj == null)))){
 if(((false) || ((cljs.core.PROTOCOL_SENTINEL === obj.devtools$format$IDevtoolsFormat$)))){
 return true;
@@ -196,7 +196,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,obj);
 }
-}catch (e23827){var _e__20620__auto__ = e23827;
+}catch (e23827){var _e__20777__auto__ = e23827;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -215,7 +215,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,obj);
 }
-}catch (e23829){var _e__20620__auto__ = e23829;
+}catch (e23831){var _e__20777__auto__ = e23831;
 return false;
 }}
 })())){

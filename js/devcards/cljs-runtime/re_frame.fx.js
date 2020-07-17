@@ -230,18 +230,18 @@ var count__47072 = (0);
 var i__47073 = (0);
 while(true){
 if((i__47073 < count__47072)){
-var map__47078 = chunk__47071.cljs$core$IIndexed$_nth$arity$2(null,i__47073);
-var map__47078__$1 = (((((!((map__47078 == null))))?(((((map__47078.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__47078.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__47078):map__47078);
-var effect = map__47078__$1;
-var ms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47078__$1,new cljs.core.Keyword(null,"ms","ms",-1152709733));
-var dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47078__$1,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009));
+var map__47079 = chunk__47071.cljs$core$IIndexed$_nth$arity$2(null,i__47073);
+var map__47079__$1 = (((((!((map__47079 == null))))?(((((map__47079.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__47079.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__47079):map__47079);
+var effect = map__47079__$1;
+var ms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47079__$1,new cljs.core.Keyword(null,"ms","ms",-1152709733));
+var dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47079__$1,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009));
 if(((cljs.core.empty_QMARK_(dispatch)) || ((!(typeof ms === 'number'))))){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: ignoring bad :dispatch-later value:",effect], 0));
 } else {
-re_frame.interop.set_timeout_BANG_(((function (seq__47070,chunk__47071,count__47072,i__47073,map__47078,map__47078__$1,effect,ms,dispatch){
+re_frame.interop.set_timeout_BANG_(((function (seq__47070,chunk__47071,count__47072,i__47073,map__47079,map__47079__$1,effect,ms,dispatch){
 return (function (){
 return re_frame.router.dispatch(dispatch);
-});})(seq__47070,chunk__47071,count__47072,i__47073,map__47078,map__47078__$1,effect,ms,dispatch))
+});})(seq__47070,chunk__47071,count__47072,i__47073,map__47079,map__47079__$1,effect,ms,dispatch))
 ,ms);
 }
 
