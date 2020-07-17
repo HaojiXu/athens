@@ -192,21 +192,21 @@ return [base,cljs.core.str.cljs$core$IFn$_invoke$arity$1(x__$1)].join('');
 
 goog.object.set(sablono.util.ToString,"null",true);
 
-var G__39803_39853 = sablono.util.to_str;
-var G__39804_39854 = "null";
-var G__39805_39855 = (function (_){
+var G__39803_39848 = sablono.util.to_str;
+var G__39804_39849 = "null";
+var G__39805_39850 = (function (_){
 return "";
 });
-goog.object.set(G__39803_39853,G__39804_39854,G__39805_39855);
+goog.object.set(G__39803_39848,G__39804_39849,G__39805_39850);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__39808_39856 = sablono.util.to_str;
-var G__39809_39857 = "number";
-var G__39810_39858 = (function (x){
+var G__39806_39851 = sablono.util.to_str;
+var G__39807_39852 = "number";
+var G__39808_39853 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__39808_39856,G__39809_39857,G__39810_39858);
+goog.object.set(G__39806_39851,G__39807_39852,G__39808_39853);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
@@ -225,11 +225,11 @@ return x__$1;
 
 goog.object.set(sablono.util.ToURI,"_",true);
 
-var G__39821_39862 = sablono.util.to_uri;
-var G__39822_39863 = "_";
-var G__39823_39864 = (function (x){
+var G__39819_39862 = sablono.util.to_uri;
+var G__39820_39863 = "_";
+var G__39821_39864 = (function (x){
 return (new goog.Uri(cljs.core.str.cljs$core$IFn$_invoke$arity$1(x)));
 });
-goog.object.set(G__39821_39862,G__39822_39863,G__39823_39864);
+goog.object.set(G__39819_39862,G__39820_39863,G__39821_39864);
 
 //# sourceMappingURL=sablono.util.js.map

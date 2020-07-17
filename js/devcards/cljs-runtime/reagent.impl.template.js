@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31930_31972 = reagent.impl.template.custom_prop_name_cache;
-var G__31931_31974 = cljs.core.name(k);
-var G__31932_31975 = v;
-goog.object.set(G__31930_31972,G__31931_31974,G__31932_31975);
+var G__31930_31971 = reagent.impl.template.custom_prop_name_cache;
+var G__31931_31972 = cljs.core.name(k);
+var G__31932_31973 = v;
+goog.object.set(G__31930_31971,G__31931_31972,G__31932_31973);
 
 return v;
 } else {
@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__31933 = o;
-var G__31934_31979 = G__31933;
-var G__31935_31980 = reagent.impl.template.cached_custom_prop_name(k);
-var G__31936_31981 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__31934_31979,G__31935_31980,G__31936_31981);
+var G__31934_31976 = G__31933;
+var G__31935_31977 = reagent.impl.template.cached_custom_prop_name(k);
+var G__31936_31978 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__31934_31976,G__31935_31977,G__31936_31978);
 
 return G__31933;
 });
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31999 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31999 == null)){
+var temp__5739__auto___31995 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31995 == null)){
 } else {
-var key_32001 = temp__5739__auto___31999;
-(jsprops.key = key_32001);
+var key_31996 = temp__5739__auto___31995;
+(jsprops.key = key_31996);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32013 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32013 == null)){
+var temp__5739__auto___32007 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32007 == null)){
 } else {
-var key_32015 = temp__5739__auto___32013;
-(jsprops.key = key_32015);
+var key_32009 = temp__5739__auto___32007;
+(jsprops.key = key_32009);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));
