@@ -5,17 +5,17 @@ goog.require('cljs.core');
  */
 edamame.impl.read_fn.walk_STAR_ = (function edamame$impl$read_fn$walk_STAR_(inner,outer,form){
 if(cljs.core.list_QMARK_(form)){
-return cljs.core.with_meta((function (){var G__59420 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
-return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59420) : outer.call(null,G__59420));
+return cljs.core.with_meta((function (){var G__59422 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
+return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59422) : outer.call(null,G__59422));
 })(),cljs.core.meta(form));
 } else {
 if(cljs.core.map_entry_QMARK_(form)){
-var G__59423 = (new cljs.core.MapEntry((function (){var G__59424 = cljs.core.key(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59424) : inner.call(null,G__59424));
+var G__59425 = (new cljs.core.MapEntry((function (){var G__59426 = cljs.core.key(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59426) : inner.call(null,G__59426));
 })(),(function (){var G__59427 = cljs.core.val(form);
 return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59427) : inner.call(null,G__59427));
 })(),null));
-return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59423) : outer.call(null,G__59423));
+return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59425) : outer.call(null,G__59425));
 } else {
 if(cljs.core.seq_QMARK_(form)){
 return cljs.core.with_meta((function (){var G__59428 = cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
