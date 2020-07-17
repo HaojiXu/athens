@@ -180,8 +180,8 @@ var count__24656_24703 = (0);
 var i__24657_24704 = (0);
 while(true){
 if((i__24657_24704 < count__24656_24703)){
-var x_24706 = chunk__24655_24702.cljs$core$IIndexed$_nth$arity$2(null,i__24657_24704);
-arr.push(x_24706);
+var x_24705 = chunk__24655_24702.cljs$core$IIndexed$_nth$arity$2(null,i__24657_24704);
+arr.push(x_24705);
 
 
 var G__24707 = seq__24654_24701;
