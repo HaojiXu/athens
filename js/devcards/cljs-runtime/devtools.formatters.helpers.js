@@ -7,8 +7,8 @@ goog.require('devtools.protocols');
 devtools.formatters.helpers.pref = (function devtools$formatters$helpers$pref(v){
 while(true){
 if((v instanceof cljs.core.Keyword)){
-var G__23786 = devtools.prefs.pref(v);
-v = G__23786;
+var G__23782 = devtools.prefs.pref(v);
+v = G__23782;
 continue;
 } else {
 return v;
@@ -53,7 +53,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(cljs.core.IPrintWithWriter,value);
 }
-}catch (e23760){var _e__20777__auto__ = e23760;
+}catch (e23759){var _e__20859__auto__ = e23759;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -72,7 +72,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,value);
 }
-}catch (e23767){var _e__20777__auto__ = e23767;
+}catch (e23764){var _e__20859__auto__ = e23764;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto____$1)){
@@ -91,7 +91,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,value);
 }
-}catch (e23769){var _e__20777__auto__ = e23769;
+}catch (e23768){var _e__20859__auto__ = e23768;
 return false;
 }}
 }
