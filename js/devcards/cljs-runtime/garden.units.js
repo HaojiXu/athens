@@ -231,11 +231,11 @@ while (G__34224__i < G__34224__a.length) {G__34224__a[G__34224__i] = arguments[G
 } 
 return G__34223__delegate.call(this,x,y,more);};
 G__34223.cljs$lang$maxFixedArity = 2;
-G__34223.cljs$lang$applyTo = (function (arglist__34225){
-var x = cljs.core.first(arglist__34225);
-arglist__34225 = cljs.core.next(arglist__34225);
-var y = cljs.core.first(arglist__34225);
-var more = cljs.core.rest(arglist__34225);
+G__34223.cljs$lang$applyTo = (function (arglist__34227){
+var x = cljs.core.first(arglist__34227);
+arglist__34227 = cljs.core.next(arglist__34227);
+var y = cljs.core.first(arglist__34227);
+var more = cljs.core.rest(arglist__34227);
 return G__34223__delegate(x,y,more);
 });
 G__34223.cljs$core$IFn$_invoke$arity$variadic = G__34223__delegate;
@@ -250,13 +250,13 @@ return garden$units$make_unit_subtractor_$_u___1.call(this,x);
 case 2:
 return garden$units$make_unit_subtractor_$_u___2.call(this,x,y);
 default:
-var G__34226 = null;
+var G__34230 = null;
 if (arguments.length > 2) {
-var G__34227__i = 0, G__34227__a = new Array(arguments.length -  2);
-while (G__34227__i < G__34227__a.length) {G__34227__a[G__34227__i] = arguments[G__34227__i + 2]; ++G__34227__i;}
-G__34226 = new cljs.core.IndexedSeq(G__34227__a,0,null);
+var G__34231__i = 0, G__34231__a = new Array(arguments.length -  2);
+while (G__34231__i < G__34231__a.length) {G__34231__a[G__34231__i] = arguments[G__34231__i + 2]; ++G__34231__i;}
+G__34230 = new cljs.core.IndexedSeq(G__34231__a,0,null);
 }
-return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__34226);
+return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__34230);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };

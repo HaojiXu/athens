@@ -45,11 +45,11 @@ athens.views.blocks.dragging_style = new cljs.core.PersistentArrayMap(null, 1, [
 stylefy.core.class$("dragging",athens.views.blocks.dragging_style);
 stylefy.core.class$("is-selected",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),athens.style.color.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"opacity-low","opacity-low",-761003971))], null));
 athens.views.blocks.on_change = (function athens$views$blocks$on_change(value,uid){
-var G__58442_58519 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null),new cljs.core.Keyword("block","string","block/string",-2066596447),value,new cljs.core.Keyword("edit","time","edit/time",1384867476),athens.util.now_ts()], null)], null)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58442_58519) : re_frame.core.dispatch.call(null,G__58442_58519));
+var G__58442_58517 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null),new cljs.core.Keyword("block","string","block/string",-2066596447),value,new cljs.core.Keyword("edit","time","edit/time",1384867476),athens.util.now_ts()], null)], null)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58442_58517) : re_frame.core.dispatch.call(null,G__58442_58517));
 
 var G__58443 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"page-link","page-link",-169621200),(function() { 
-var G__58520__delegate = function (title){
+var G__58518__delegate = function (title){
 var inner_title = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,title);
 if((athens.db.search_exact_node_title(inner_title) == null)){
 var now_58521 = athens.util.now_ts();
@@ -61,21 +61,21 @@ var G__58445_58523 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.Persis
 
 return ["[[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(inner_title),"]]"].join('');
 };
-var G__58520 = function (var_args){
+var G__58518 = function (var_args){
 var title = null;
 if (arguments.length > 0) {
-var G__58525__i = 0, G__58525__a = new Array(arguments.length -  0);
-while (G__58525__i < G__58525__a.length) {G__58525__a[G__58525__i] = arguments[G__58525__i + 0]; ++G__58525__i;}
-  title = new cljs.core.IndexedSeq(G__58525__a,0,null);
+var G__58524__i = 0, G__58524__a = new Array(arguments.length -  0);
+while (G__58524__i < G__58524__a.length) {G__58524__a[G__58524__i] = arguments[G__58524__i + 0]; ++G__58524__i;}
+  title = new cljs.core.IndexedSeq(G__58524__a,0,null);
 } 
-return G__58520__delegate.call(this,title);};
-G__58520.cljs$lang$maxFixedArity = 0;
-G__58520.cljs$lang$applyTo = (function (arglist__58526){
-var title = cljs.core.seq(arglist__58526);
-return G__58520__delegate(title);
+return G__58518__delegate.call(this,title);};
+G__58518.cljs$lang$maxFixedArity = 0;
+G__58518.cljs$lang$applyTo = (function (arglist__58525){
+var title = cljs.core.seq(arglist__58525);
+return G__58518__delegate(title);
 });
-G__58520.cljs$core$IFn$_invoke$arity$variadic = G__58520__delegate;
-return G__58520;
+G__58518.cljs$core$IFn$_invoke$arity$variadic = G__58518__delegate;
+return G__58518;
 })()
 ], null);
 var G__58444 = athens.parser.parse_to_ast(value);
