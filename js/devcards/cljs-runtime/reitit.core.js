@@ -2006,8 +2006,8 @@ reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(
 
 var temp__5735__auto___50572 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
 if(cljs.core.truth_(temp__5735__auto___50572)){
-var validate_50576 = temp__5735__auto___50572;
-(validate_50576.cljs$core$IFn$_invoke$arity$2 ? validate_50576.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50576.call(null,compiled_routes,opts__$1));
+var validate_50573 = temp__5735__auto___50572;
+(validate_50573.cljs$core$IFn$_invoke$arity$2 ? validate_50573.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50573.call(null,compiled_routes,opts__$1));
 } else {
 }
 

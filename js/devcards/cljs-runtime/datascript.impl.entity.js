@@ -227,14 +227,14 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26502,(1),null);
 f.call(use_as_this,v,a,this$);
 
 
-var G__26547 = seq__26492;
-var G__26548 = chunk__26493;
-var G__26549 = count__26494;
-var G__26550 = (i__26495 + (1));
-seq__26492 = G__26547;
-chunk__26493 = G__26548;
-count__26494 = G__26549;
-i__26495 = G__26550;
+var G__26548 = seq__26492;
+var G__26549 = chunk__26493;
+var G__26550 = count__26494;
+var G__26551 = (i__26495 + (1));
+seq__26492 = G__26548;
+chunk__26493 = G__26549;
+count__26494 = G__26550;
+i__26495 = G__26551;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__26492);
@@ -242,14 +242,14 @@ if(temp__5735__auto__){
 var seq__26492__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__26492__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__26492__$1);
-var G__26553 = cljs.core.chunk_rest(seq__26492__$1);
-var G__26554 = c__4609__auto__;
-var G__26555 = cljs.core.count(c__4609__auto__);
-var G__26556 = (0);
-seq__26492 = G__26553;
-chunk__26493 = G__26554;
-count__26494 = G__26555;
-i__26495 = G__26556;
+var G__26554 = cljs.core.chunk_rest(seq__26492__$1);
+var G__26555 = c__4609__auto__;
+var G__26556 = cljs.core.count(c__4609__auto__);
+var G__26557 = (0);
+seq__26492 = G__26554;
+chunk__26493 = G__26555;
+count__26494 = G__26556;
+i__26495 = G__26557;
 continue;
 } else {
 var vec__26505 = cljs.core.first(seq__26492__$1);
@@ -299,11 +299,11 @@ return self__.eid;
 if(datascript.db.reverse_ref_QMARK_(attr)){
 return datascript.impl.entity.multival__GT_js(datascript.impl.entity._lookup_backwards(self__.db,self__.eid,datascript.db.reverse_ref(attr),null));
 } else {
-var G__26508 = (datascript.impl.entity.lookup_entity.cljs$core$IFn$_invoke$arity$2 ? datascript.impl.entity.lookup_entity.cljs$core$IFn$_invoke$arity$2(this$,attr) : datascript.impl.entity.lookup_entity.call(null,this$,attr));
+var G__26510 = (datascript.impl.entity.lookup_entity.cljs$core$IFn$_invoke$arity$2 ? datascript.impl.entity.lookup_entity.cljs$core$IFn$_invoke$arity$2(this$,attr) : datascript.impl.entity.lookup_entity.call(null,this$,attr));
 if(datascript.db.multival_QMARK_(self__.db,attr)){
-return datascript.impl.entity.multival__GT_js(G__26508);
+return datascript.impl.entity.multival__GT_js(G__26510);
 } else {
-return G__26508;
+return G__26510;
 }
 }
 }
@@ -550,9 +550,9 @@ throw (new Error("Assert failed: (entity? e)"));
 
 if(cljs.core.truth_(cljs.core.deref(e.touched))){
 } else {
-var temp__5735__auto___26644 = cljs.core.not_empty(datascript.db._search(e.db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [e.eid], null)));
-if(cljs.core.truth_(temp__5735__auto___26644)){
-var datoms_26646 = temp__5735__auto___26644;
+var temp__5735__auto___26645 = cljs.core.not_empty(datascript.db._search(e.db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [e.eid], null)));
+if(cljs.core.truth_(temp__5735__auto___26645)){
+var datoms_26646 = temp__5735__auto___26645;
 cljs.core.vreset_BANG_(e.cache,datascript.impl.entity.touch_components(e.db,datascript.impl.entity.datoms__GT_cache(e.db,datoms_26646)));
 
 cljs.core.vreset_BANG_(e.touched,true);

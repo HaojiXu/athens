@@ -32,8 +32,8 @@ try{cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(obj);
 (cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__41867_41878);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
-}catch (e41860){if((e41860 instanceof Error)){
-var e1 = e41860;
+}catch (e41861){if((e41861 instanceof Error)){
+var e1 = e41861;
 try{return obj.toString();
 }catch (e41862){if((e41862 instanceof Error)){
 var e2 = e41862;
@@ -43,7 +43,7 @@ throw e41862;
 
 }
 }} else {
-throw e41860;
+throw e41861;
 
 }
 }});

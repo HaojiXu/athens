@@ -52,10 +52,10 @@ var G__58443 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(
 var G__58520__delegate = function (title){
 var inner_title = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,title);
 if((athens.db.search_exact_node_title(inner_title) == null)){
-var now_58522 = athens.util.now_ts();
-var uid_58523__$1 = athens.util.gen_block_uid();
-var G__58445_58524 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword("node","title","node/title",628940777),inner_title,new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid_58523__$1,new cljs.core.Keyword("edit","time","edit/time",1384867476),now_58522,new cljs.core.Keyword("create","time","create/time",-1563077754),now_58522], null)], null)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58445_58524) : re_frame.core.dispatch.call(null,G__58445_58524));
+var now_58521 = athens.util.now_ts();
+var uid_58522__$1 = athens.util.gen_block_uid();
+var G__58445_58523 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword("node","title","node/title",628940777),inner_title,new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid_58522__$1,new cljs.core.Keyword("edit","time","edit/time",1384867476),now_58521,new cljs.core.Keyword("create","time","create/time",-1563077754),now_58521], null)], null)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58445_58523) : re_frame.core.dispatch.call(null,G__58445_58523));
 } else {
 }
 
