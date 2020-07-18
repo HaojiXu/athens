@@ -47,9 +47,9 @@ var new_db = re_frame.interceptor.get_effect.cljs$core$IFn$_invoke$arity$3(conte
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new_db,new cljs.core.Keyword("re-frame.std-interceptors","not-found","re-frame.std-interceptors/not-found",-1614827865))){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"log","log",-1595516004),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["No app-db changes in:",event], 0));
 } else {
-var vec__47135_47178 = clojure.data.diff(orig_db,new_db);
-var only_before_47179 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__47135_47178,(0),null);
-var only_after_47180 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__47135_47178,(1),null);
+var vec__47155_47178 = clojure.data.diff(orig_db,new_db);
+var only_before_47179 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__47155_47178,(0),null);
+var only_after_47180 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__47155_47178,(1),null);
 var db_changed_QMARK__47181 = (((!((only_before_47179 == null)))) || ((!((only_after_47180 == null)))));
 if(db_changed_QMARK__47181){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"group","group",582596132),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["db clojure.data/diff for:",event], 0));

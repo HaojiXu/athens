@@ -68,11 +68,11 @@ return G__34836;
 (garden.stylesheet.rule.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq34817){
-var G__34818 = cljs.core.first(seq34817);
-var seq34817__$1 = cljs.core.next(seq34817);
+(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq34816){
+var G__34817 = cljs.core.first(seq34816);
+var seq34816__$1 = cljs.core.next(seq34816);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34818,seq34817__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34817,seq34816__$1);
 }));
 
 garden.stylesheet.cssfn = (function garden$stylesheet$cssfn(fn_name){
@@ -131,9 +131,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (garden.stylesheet.at_font_face.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34821){
+(garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq34820){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34821));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq34820));
 }));
 
 /**
@@ -216,11 +216,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"media","media",-106
 (garden.stylesheet.at_media.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_media.cljs$lang$applyTo = (function (seq34827){
-var G__34828 = cljs.core.first(seq34827);
-var seq34827__$1 = cljs.core.next(seq34827);
+(garden.stylesheet.at_media.cljs$lang$applyTo = (function (seq34826){
+var G__34827 = cljs.core.first(seq34826);
+var seq34826__$1 = cljs.core.next(seq34826);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34828,seq34827__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34827,seq34826__$1);
 }));
 
 garden.stylesheet.at_supports = (function garden$stylesheet$at_supports(var_args){
