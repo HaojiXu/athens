@@ -67,10 +67,10 @@ var db_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31296,(0),null);
 var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31296,(1),null);
 return cljs.core.PersistentArrayMap.createAsIfByAssoc([db_sym,posh.lib.db.poshdb__GT_analyze_db(posh_tree,poshdb)]);
 }),dbvarmap));
-var fixed_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31299){
-var vec__31300 = p__31299;
-var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31300,(0),null);
-var arg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31300,(1),null);
+var fixed_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31300){
+var vec__31301 = p__31300;
+var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31301,(0),null);
+var arg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31301,(1),null);
 var or__4185__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(poshdbmap,sym);
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;

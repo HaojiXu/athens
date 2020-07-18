@@ -17,11 +17,11 @@ var G__55917_55990 = (function (db,_){
 return new cljs.core.Keyword(null,"alert","alert",-571950580).cljs$core$IFn$_invoke$arity$1(db);
 });
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55916_55989,G__55917_55990) : re_frame.core.reg_sub.call(null,G__55916_55989,G__55917_55990));
-var G__55918_55991 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
-var G__55919_55992 = (function (db,_){
+var G__55921_55991 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
+var G__55922_55992 = (function (db,_){
 return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55918_55991,G__55919_55992) : re_frame.core.reg_sub.call(null,G__55918_55991,G__55919_55992));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55921_55991,G__55922_55992) : re_frame.core.reg_sub.call(null,G__55921_55991,G__55922_55992));
 var G__55923_55993 = new cljs.core.Keyword("athena","open","athena/open",1253777725);
 var G__55924_55994 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;

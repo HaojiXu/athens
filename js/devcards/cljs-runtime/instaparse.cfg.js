@@ -79,16 +79,16 @@ var temp__5733__auto____$1 = cljs.core.second(sq);
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var c2 = temp__5733__auto____$1;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c2,"'")){
-var G__57422 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__57423 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
-sq = G__57422;
-v = G__57423;
+var G__57421 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__57422 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
+sq = G__57421;
+v = G__57422;
 continue;
 } else {
-var G__57424 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__57425 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,c,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c2], 0));
-sq = G__57424;
-v = G__57425;
+var G__57423 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__57424 = cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(v,c,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([c2], 0));
+sq = G__57423;
+v = G__57424;
 continue;
 }
 } else {
@@ -149,9 +149,9 @@ return final_string;
  */
 instaparse.cfg.build_rule = (function instaparse$cfg$build_rule(tree){
 while(true){
-var G__57388 = (instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.tag.call(null,tree));
-var G__57388__$1 = (((G__57388 instanceof cljs.core.Keyword))?G__57388.fqn:null);
-switch (G__57388__$1) {
+var G__57387 = (instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.tag.call(null,tree));
+var G__57387__$1 = (((G__57387 instanceof cljs.core.Keyword))?G__57387.fqn:null);
+switch (G__57387__$1) {
 case "rule":
 var vec__57389 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.contents.call(null,tree));
 var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57389,(0),null);
@@ -236,7 +236,7 @@ return instaparse.combinators_source.Epsilon;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__57388__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__57387__$1)].join('')));
 
 }
 break;
