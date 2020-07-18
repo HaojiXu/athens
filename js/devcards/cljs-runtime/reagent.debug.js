@@ -16,9 +16,9 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$variadic(reagent.debug.w
 var G__31587 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31592__i = 0, G__31592__a = new Array(arguments.length -  0);
-while (G__31592__i < G__31592__a.length) {G__31592__a[G__31592__i] = arguments[G__31592__i + 0]; ++G__31592__i;}
-  args = new cljs.core.IndexedSeq(G__31592__a,0,null);
+var G__31588__i = 0, G__31588__a = new Array(arguments.length -  0);
+while (G__31588__i < G__31588__a.length) {G__31588__a[G__31588__i] = arguments[G__31588__i + 0]; ++G__31588__i;}
+  args = new cljs.core.IndexedSeq(G__31588__a,0,null);
 } 
 return G__31587__delegate.call(this,args);};
 G__31587.cljs$lang$maxFixedArity = 0;

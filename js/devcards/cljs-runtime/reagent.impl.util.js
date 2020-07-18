@@ -50,12 +50,12 @@ return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
 var name_str__$1 = clojure.string.replace(name_str,/(unsafe|UNSAFE)[-_]/,"UNSAFE_");
-var vec__31623 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
-var seq__31624 = cljs.core.seq(vec__31623);
-var first__31625 = cljs.core.first(seq__31624);
-var seq__31624__$1 = cljs.core.next(seq__31624);
-var start = first__31625;
-var parts = seq__31624__$1;
+var vec__31621 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
+var seq__31622 = cljs.core.seq(vec__31621);
+var first__31623 = cljs.core.first(seq__31622);
+var seq__31622__$1 = cljs.core.next(seq__31622);
+var start = first__31623;
+var parts = seq__31622__$1;
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,start,cljs.core.map.cljs$core$IFn$_invoke$arity$2(reagent.impl.util.capitalize,parts));
 }
 });
@@ -114,8 +114,8 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (reagent.impl.util.PartialFn.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__31643 = (arguments.length - (1));
-switch (G__31643) {
+var G__31640 = (arguments.length - (1));
+switch (G__31640) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -402,14 +402,14 @@ return reagent.impl.util.class_names.cljs$core$IFn$_invoke$arity$2((arguments[(0
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___31662 = arguments.length;
-var i__4790__auto___31663 = (0);
+var len__4789__auto___31664 = arguments.length;
+var i__4790__auto___31665 = (0);
 while(true){
-if((i__4790__auto___31663 < len__4789__auto___31662)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___31663]));
+if((i__4790__auto___31665 < len__4789__auto___31664)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___31665]));
 
-var G__31664 = (i__4790__auto___31663 + (1));
-i__4790__auto___31663 = G__31664;
+var G__31666 = (i__4790__auto___31665 + (1));
+i__4790__auto___31665 = G__31666;
 continue;
 } else {
 }
