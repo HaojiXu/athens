@@ -22,8 +22,8 @@ return garden.color.opacify((c.cljs$core$IFn$_invoke$arity$1 ? c.cljs$core$IFn$_
 }
 });
 athens.style.color = (function athens$style$color(var_args){
-var G__39297 = arguments.length;
-switch (G__39297) {
+var G__39301 = arguments.length;
+switch (G__39301) {
 case 1:
 return athens.style.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

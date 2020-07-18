@@ -163,8 +163,8 @@ return clojure.zip.node(loc);
 } else {
 var p = clojure.zip.up(loc);
 if(cljs.core.truth_(p)){
-var G__43164 = p;
-loc = G__43164;
+var G__43162 = p;
+loc = G__43162;
 continue;
 } else {
 return clojure.zip.node(loc);
@@ -229,13 +229,13 @@ return loc;
  * Returns the loc of the left sibling of the node at this loc, or nil
  */
 clojure.zip.left = (function clojure$zip$left(loc){
-var vec__43095 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43095,(0),null);
-var map__43098 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43095,(1),null);
-var map__43098__$1 = (((((!((map__43098 == null))))?(((((map__43098.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43098.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43098):map__43098);
-var path = map__43098__$1;
-var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43098__$1,new cljs.core.Keyword(null,"l","l",1395893423));
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43098__$1,new cljs.core.Keyword(null,"r","r",-471384190));
+var vec__43091 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43091,(0),null);
+var map__43094 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43091,(1),null);
+var map__43094__$1 = (((((!((map__43094 == null))))?(((((map__43094.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43094.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43094):map__43094);
+var path = map__43094__$1;
+var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43094__$1,new cljs.core.Keyword(null,"l","l",1395893423));
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43094__$1,new cljs.core.Keyword(null,"r","r",-471384190));
 if(cljs.core.truth_((function (){var and__4174__auto__ = path;
 if(cljs.core.truth_(and__4174__auto__)){
 return cljs.core.seq(l);
@@ -252,13 +252,13 @@ return null;
  * Returns the loc of the leftmost sibling of the node at this loc, or self
  */
 clojure.zip.leftmost = (function clojure$zip$leftmost(loc){
-var vec__43103 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43103,(0),null);
-var map__43106 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43103,(1),null);
-var map__43106__$1 = (((((!((map__43106 == null))))?(((((map__43106.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43106.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43106):map__43106);
-var path = map__43106__$1;
-var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43106__$1,new cljs.core.Keyword(null,"l","l",1395893423));
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43106__$1,new cljs.core.Keyword(null,"r","r",-471384190));
+var vec__43096 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43096,(0),null);
+var map__43099 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43096,(1),null);
+var map__43099__$1 = (((((!((map__43099 == null))))?(((((map__43099.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43099.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43099):map__43099);
+var path = map__43099__$1;
+var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43099__$1,new cljs.core.Keyword(null,"l","l",1395893423));
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43099__$1,new cljs.core.Keyword(null,"r","r",-471384190));
 if(cljs.core.truth_((function (){var and__4174__auto__ = path;
 if(cljs.core.truth_(and__4174__auto__)){
 return cljs.core.seq(l);
@@ -276,12 +276,12 @@ return loc;
  *  without moving
  */
 clojure.zip.insert_left = (function clojure$zip$insert_left(loc,item){
-var vec__43112 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43112,(0),null);
-var map__43115 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43112,(1),null);
-var map__43115__$1 = (((((!((map__43115 == null))))?(((((map__43115.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43115.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43115):map__43115);
-var path = map__43115__$1;
-var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43115__$1,new cljs.core.Keyword(null,"l","l",1395893423));
+var vec__43101 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43101,(0),null);
+var map__43104 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43101,(1),null);
+var map__43104__$1 = (((((!((map__43104 == null))))?(((((map__43104.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43104.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43104):map__43104);
+var path = map__43104__$1;
+var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43104__$1,new cljs.core.Keyword(null,"l","l",1395893423));
 if((path == null)){
 throw "Insert at top";
 } else {
@@ -293,12 +293,12 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.
  *   without moving
  */
 clojure.zip.insert_right = (function clojure$zip$insert_right(loc,item){
-var vec__43121 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43121,(0),null);
-var map__43124 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43121,(1),null);
-var map__43124__$1 = (((((!((map__43124 == null))))?(((((map__43124.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43124.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43124):map__43124);
-var path = map__43124__$1;
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43124__$1,new cljs.core.Keyword(null,"r","r",-471384190));
+var vec__43108 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43108,(0),null);
+var map__43111 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43108,(1),null);
+var map__43111__$1 = (((((!((map__43111 == null))))?(((((map__43111.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43111.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43111):map__43111);
+var path = map__43111__$1;
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43111__$1,new cljs.core.Keyword(null,"r","r",-471384190));
 if((path == null)){
 throw "Insert at top";
 } else {
@@ -309,9 +309,9 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.
  * Replaces the node at this loc, without moving
  */
 clojure.zip.replace = (function clojure$zip$replace(loc,node){
-var vec__43130 = loc;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43130,(0),null);
-var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43130,(1),null);
+var vec__43117 = loc;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43117,(0),null);
+var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43117,(1),null);
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [node,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(path,new cljs.core.Keyword(null,"changed?","changed?",-437828330),true)], null),cljs.core.meta(loc));
 });
 /**
@@ -344,13 +344,13 @@ return clojure.zip.replace(loc,cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,c
 (clojure.zip.edit.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(clojure.zip.edit.cljs$lang$applyTo = (function (seq43134){
-var G__43135 = cljs.core.first(seq43134);
-var seq43134__$1 = cljs.core.next(seq43134);
-var G__43136 = cljs.core.first(seq43134__$1);
-var seq43134__$2 = cljs.core.next(seq43134__$1);
+(clojure.zip.edit.cljs$lang$applyTo = (function (seq43121){
+var G__43122 = cljs.core.first(seq43121);
+var seq43121__$1 = cljs.core.next(seq43121);
+var G__43123 = cljs.core.first(seq43121__$1);
+var seq43121__$2 = cljs.core.next(seq43121__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__43135,G__43136,seq43134__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__43122,G__43123,seq43121__$2);
 }));
 
 /**
@@ -452,15 +452,15 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"
  *   it in a depth-first walk.
  */
 clojure.zip.remove = (function clojure$zip$remove(loc){
-var vec__43154 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43154,(0),null);
-var map__43157 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43154,(1),null);
-var map__43157__$1 = (((((!((map__43157 == null))))?(((((map__43157.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43157.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43157):map__43157);
-var path = map__43157__$1;
-var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43157__$1,new cljs.core.Keyword(null,"l","l",1395893423));
-var ppath = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43157__$1,new cljs.core.Keyword(null,"ppath","ppath",-1758182784));
-var pnodes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43157__$1,new cljs.core.Keyword(null,"pnodes","pnodes",1739080565));
-var rs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43157__$1,new cljs.core.Keyword(null,"r","r",-471384190));
+var vec__43141 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43141,(0),null);
+var map__43144 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43141,(1),null);
+var map__43144__$1 = (((((!((map__43144 == null))))?(((((map__43144.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43144.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43144):map__43144);
+var path = map__43144__$1;
+var l = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43144__$1,new cljs.core.Keyword(null,"l","l",1395893423));
+var ppath = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43144__$1,new cljs.core.Keyword(null,"ppath","ppath",-1758182784));
+var pnodes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43144__$1,new cljs.core.Keyword(null,"pnodes","pnodes",1739080565));
+var rs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43144__$1,new cljs.core.Keyword(null,"r","r",-471384190));
 if((path == null)){
 throw "Remove at top";
 } else {

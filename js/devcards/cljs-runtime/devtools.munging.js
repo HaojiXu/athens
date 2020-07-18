@@ -297,14 +297,14 @@ return null;
  */
 devtools.munging.detect_namespace_prefix = (function devtools$munging$detect_namespace_prefix(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23760 = arguments.length;
-var i__4790__auto___23761 = (0);
+var len__4789__auto___23755 = arguments.length;
+var i__4790__auto___23756 = (0);
 while(true){
-if((i__4790__auto___23761 < len__4789__auto___23760)){
-args__4795__auto__.push((arguments[i__4790__auto___23761]));
+if((i__4790__auto___23756 < len__4789__auto___23755)){
+args__4795__auto__.push((arguments[i__4790__auto___23756]));
 
-var G__23763 = (i__4790__auto___23761 + (1));
-i__4790__auto___23761 = G__23763;
+var G__23757 = (i__4790__auto___23756 + (1));
+i__4790__auto___23756 = G__23757;
 continue;
 } else {
 }
@@ -335,10 +335,10 @@ var ns_name = clojure.string.join.cljs$core$IFn$_invoke$arity$2(".",remaining_to
 if(cljs.core.truth_((effective_detector.cljs$core$IFn$_invoke$arity$1 ? effective_detector.cljs$core$IFn$_invoke$arity$1(ns_name) : effective_detector.call(null,ns_name)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ns_name,name_tokens], null);
 } else {
-var G__23768 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.last(remaining_tokens)], null),name_tokens);
-var G__23769 = cljs.core.butlast(remaining_tokens);
-name_tokens = G__23768;
-remaining_tokens = G__23769;
+var G__23758 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.last(remaining_tokens)], null),name_tokens);
+var G__23759 = cljs.core.butlast(remaining_tokens);
+name_tokens = G__23758;
+remaining_tokens = G__23759;
 continue;
 }
 }
@@ -392,10 +392,10 @@ var vec__23694 = devtools.munging.detect_namespace_prefix.cljs$core$IFn$_invoke$
 var protocol_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23694,(0),null);
 var name_and_method_tokens = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23694,(1),null);
 if(cljs.core.empty_QMARK_(protocol_ns)){
-var G__23771 = cljs.core.rest(remaining_tokens);
-var G__23772 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(name_tokens,cljs.core.first(remaining_tokens));
-remaining_tokens = G__23771;
-name_tokens = G__23772;
+var G__23761 = cljs.core.rest(remaining_tokens);
+var G__23762 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(name_tokens,cljs.core.first(remaining_tokens));
+remaining_tokens = G__23761;
+name_tokens = G__23762;
 continue;
 } else {
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [name_tokens,protocol_ns,cljs.core.first(name_and_method_tokens),cljs.core.rest(name_and_method_tokens)], null);
@@ -613,8 +613,8 @@ while(true){
 if((arity > max_arity)){
 return collection;
 } else {
-var G__23780 = (arity + (1));
-var G__23781 = (function (){var temp__5733__auto__ = devtools.munging.get_fn_fixed_arity(f,arity);
+var G__23775 = (arity + (1));
+var G__23776 = (function (){var temp__5733__auto__ = devtools.munging.get_fn_fixed_arity(f,arity);
 if(cljs.core.truth_(temp__5733__auto__)){
 var arity_fn = temp__5733__auto__;
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(collection,arity,arity_fn);
@@ -622,8 +622,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(collection,arity,arity_fn);
 return collection;
 }
 })();
-arity = G__23780;
-collection = G__23781;
+arity = G__23775;
+collection = G__23776;
 continue;
 }
 break;
@@ -740,14 +740,14 @@ return sorted_args_lists;
  */
 devtools.munging.arities_to_args_lists = (function devtools$munging$arities_to_args_lists(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23783 = arguments.length;
-var i__4790__auto___23784 = (0);
+var len__4789__auto___23780 = arguments.length;
+var i__4790__auto___23781 = (0);
 while(true){
-if((i__4790__auto___23784 < len__4789__auto___23783)){
-args__4795__auto__.push((arguments[i__4790__auto___23784]));
+if((i__4790__auto___23781 < len__4789__auto___23780)){
+args__4795__auto__.push((arguments[i__4790__auto___23781]));
 
-var G__23785 = (i__4790__auto___23784 + (1));
-i__4790__auto___23784 = G__23785;
+var G__23782 = (i__4790__auto___23781 + (1));
+i__4790__auto___23781 = G__23782;
 continue;
 } else {
 }

@@ -29,17 +29,17 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (tick.format.formatter.cljs$core$IFn$_invoke$arity$1 = (function (fmt){
-return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__51146 = goog.object.get(JSJodaLocale,"Locale");
-if((G__51146 == null)){
+return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__51139 = goog.object.get(JSJodaLocale,"Locale");
+if((G__51139 == null)){
 return null;
 } else {
-return goog.object.get(G__51146,"US");
+return goog.object.get(G__51139,"US");
 }
-}catch (e51141){if((e51141 instanceof Error)){
-var e = e51141;
+}catch (e51138){if((e51138 instanceof Error)){
+var e = e51138;
 return null;
 } else {
-throw e51141;
+throw e51138;
 
 }
 }})());
@@ -59,8 +59,8 @@ return fmt__$1;
  *   argument. Given one argument uses the default format.
  */
 tick.format.format = (function tick$format$format(var_args){
-var G__51161 = arguments.length;
-switch (G__51161) {
+var G__51141 = arguments.length;
+switch (G__51141) {
 case 1:
 return tick.format.format.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
