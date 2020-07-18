@@ -196,7 +196,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,obj);
 }
-}catch (e23829){var _e__20676__auto__ = e23829;
+}catch (e23829){var _e__20781__auto__ = e23829;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -215,7 +215,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,obj);
 }
-}catch (e23831){var _e__20676__auto__ = e23831;
+}catch (e23831){var _e__20781__auto__ = e23831;
 return false;
 }}
 })())){
@@ -255,19 +255,19 @@ var opts = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null
 var job_fn = (function (){
 return (printer.cljs$core$IFn$_invoke$arity$2 ? printer.cljs$core$IFn$_invoke$arity$2(writer,opts) : printer.call(null,writer,opts));
 });
-var temp__5733__auto___23868 = devtools.formatters.state.get_managed_print_level();
-if(cljs.core.truth_(temp__5733__auto___23868)){
-var managed_print_level_23869 = temp__5733__auto___23868;
-var _STAR_print_level_STAR__orig_val__23845_23870 = cljs.core._STAR_print_level_STAR_;
-var _STAR_print_level_STAR__temp_val__23846_23871 = managed_print_level_23869;
-(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23846_23871);
+var temp__5733__auto___23863 = devtools.formatters.state.get_managed_print_level();
+if(cljs.core.truth_(temp__5733__auto___23863)){
+var managed_print_level_23864 = temp__5733__auto___23863;
+var _STAR_print_level_STAR__orig_val__23845_23865 = cljs.core._STAR_print_level_STAR_;
+var _STAR_print_level_STAR__temp_val__23846_23866 = managed_print_level_23864;
+(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23846_23866);
 
 try{devtools.formatters.state.update_current_state_BANG_((function (p1__23844_SHARP_){
 return devtools.formatters.state.set_managed_print_level(p1__23844_SHARP_,null);
 }));
 
 job_fn();
-}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23845_23870);
+}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23845_23865);
 }} else {
 job_fn();
 }
