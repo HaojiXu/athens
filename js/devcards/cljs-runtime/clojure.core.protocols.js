@@ -36,21 +36,21 @@ throw cljs.core.missing_protocol("Datafiable.datafy",o);
 
 goog.object.set(clojure.core.protocols.Datafiable,"null",true);
 
-var G__60886_60895 = clojure.core.protocols.datafy;
-var G__60887_60896 = "null";
-var G__60888_60897 = (function (_){
+var G__60887_60896 = clojure.core.protocols.datafy;
+var G__60888_60897 = "null";
+var G__60889_60898 = (function (_){
 return null;
 });
-goog.object.set(G__60886_60895,G__60887_60896,G__60888_60897);
+goog.object.set(G__60887_60896,G__60888_60897,G__60889_60898);
 
 goog.object.set(clojure.core.protocols.Datafiable,"_",true);
 
-var G__60889_60898 = clojure.core.protocols.datafy;
-var G__60890_60899 = "_";
-var G__60891_60900 = (function (o){
+var G__60890_60899 = clojure.core.protocols.datafy;
+var G__60891_60900 = "_";
+var G__60892_60901 = (function (o){
 return o;
 });
-goog.object.set(G__60889_60898,G__60890_60899,G__60891_60900);
+goog.object.set(G__60890_60899,G__60891_60900,G__60892_60901);
 
 /**
  * @interface
@@ -88,11 +88,11 @@ throw cljs.core.missing_protocol("Navigable.nav",coll);
 
 goog.object.set(clojure.core.protocols.Navigable,"_",true);
 
-var G__60892_60901 = clojure.core.protocols.nav;
-var G__60893_60902 = "_";
-var G__60894_60903 = (function (_,___$1,x){
+var G__60893_60902 = clojure.core.protocols.nav;
+var G__60894_60903 = "_";
+var G__60895_60904 = (function (_,___$1,x){
 return x;
 });
-goog.object.set(G__60892_60901,G__60893_60902,G__60894_60903);
+goog.object.set(G__60893_60902,G__60894_60903,G__60895_60904);
 
 //# sourceMappingURL=clojure.core.protocols.js.map
