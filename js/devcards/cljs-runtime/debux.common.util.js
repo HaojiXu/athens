@@ -236,14 +236,14 @@ return cljs.core.flush();
 });
 debux.common.util.form_header = (function debux$common$util$form_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46325 = arguments.length;
-var i__4790__auto___46326 = (0);
+var len__4789__auto___46326 = arguments.length;
+var i__4790__auto___46327 = (0);
 while(true){
-if((i__4790__auto___46326 < len__4789__auto___46325)){
-args__4795__auto__.push((arguments[i__4790__auto___46326]));
+if((i__4790__auto___46327 < len__4789__auto___46326)){
+args__4795__auto__.push((arguments[i__4790__auto___46327]));
 
-var G__46327 = (i__4790__auto___46326 + (1));
-i__4790__auto___46326 = G__46327;
+var G__46328 = (i__4790__auto___46327 + (1));
+i__4790__auto___46327 = G__46328;
 continue;
 } else {
 }
@@ -483,17 +483,17 @@ if(clojure.zip.end_QMARK_(loc)){
 return clojure.zip.root(loc);
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(d_sym,cljs.core.first(node))) || (debux.common.util.debux_skip_symbol_QMARK_(cljs.core.first(node))) || (debux.common.util.spy_first_QMARK_(cljs.core.first(node))))))){
-var G__46350 = clojure.zip.replace(loc,debux.common.util.third(node));
-loc = G__46350;
+var G__46357 = clojure.zip.replace(loc,debux.common.util.third(node));
+loc = G__46357;
 continue;
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol("debux.common.util","spy-last","debux.common.util/spy-last",321778494,null),cljs.core.first(node))))){
-var G__46351 = clojure.zip.replace(loc,cljs.core.last(node));
-loc = G__46351;
+var G__46359 = clojure.zip.replace(loc,cljs.core.last(node));
+loc = G__46359;
 continue;
 } else {
-var G__46352 = clojure.zip.next(loc);
-loc = G__46352;
+var G__46360 = clojure.zip.next(loc);
+loc = G__46360;
 continue;
 
 }

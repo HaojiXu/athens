@@ -344,13 +344,13 @@ return clojure.zip.replace(loc,cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,c
 (clojure.zip.edit.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(clojure.zip.edit.cljs$lang$applyTo = (function (seq43106){
-var G__43107 = cljs.core.first(seq43106);
-var seq43106__$1 = cljs.core.next(seq43106);
-var G__43108 = cljs.core.first(seq43106__$1);
-var seq43106__$2 = cljs.core.next(seq43106__$1);
+(clojure.zip.edit.cljs$lang$applyTo = (function (seq43107){
+var G__43108 = cljs.core.first(seq43107);
+var seq43107__$1 = cljs.core.next(seq43107);
+var G__43109 = cljs.core.first(seq43107__$1);
+var seq43107__$2 = cljs.core.next(seq43107__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__43107,G__43108,seq43106__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__43108,G__43109,seq43107__$2);
 }));
 
 /**

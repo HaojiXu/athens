@@ -44,13 +44,13 @@ stylefy.impl.log.warn(["Incorrect mode detected, should not contain spaces. Mode
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["&",cljs.core.str.cljs$core$IFn$_invoke$arity$1(mode_name)].join('')),mode_props], null);
 });
 if(cljs.core.map_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34875_SHARP_){
-return handle_mode(p1__34875_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__34875_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34871_SHARP_){
+return handle_mode(p1__34871_SHARP_,cljs.core.get.cljs$core$IFn$_invoke$arity$2(modes,p1__34871_SHARP_));
 }),cljs.core.keys(modes));
 } else {
 if(cljs.core.vector_QMARK_(modes)){
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34878_SHARP_){
-return handle_mode(cljs.core.first(p1__34878_SHARP_),cljs.core.second(p1__34878_SHARP_));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__34872_SHARP_){
+return handle_mode(cljs.core.first(p1__34872_SHARP_),cljs.core.second(p1__34872_SHARP_));
 }),modes);
 } else {
 return null;
@@ -193,11 +193,11 @@ return stylefy.impl.conversion.class_selector(hash);
 }
 })();
 var css_manual_styles = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (manual_style){
-var manual_selector_and_css_props = clojure.walk.walk((function (p1__34894_SHARP_){
-if(cljs.core.map_QMARK_(p1__34894_SHARP_)){
-return stylefy.impl.utils.remove_special_keywords(p1__34894_SHARP_);
+var manual_selector_and_css_props = clojure.walk.walk((function (p1__34893_SHARP_){
+if(cljs.core.map_QMARK_(p1__34893_SHARP_)){
+return stylefy.impl.utils.remove_special_keywords(p1__34893_SHARP_);
 } else {
-return p1__34894_SHARP_;
+return p1__34893_SHARP_;
 }
 }),cljs.core.identity,manual_style);
 var garden_style_definition = cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [css_parent_selector], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [manual_selector_and_css_props], null));

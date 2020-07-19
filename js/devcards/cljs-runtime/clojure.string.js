@@ -26,7 +26,7 @@ return s.replace(r,replacement);
 });
 clojure.string.replace_with = (function clojure$string$replace_with(f){
 return (function() { 
-var G__20290__delegate = function (args){
+var G__20289__delegate = function (args){
 var matches = cljs.core.drop_last.cljs$core$IFn$_invoke$arity$2((2),args);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(matches),(1))){
 var G__20233 = cljs.core.first(matches);
@@ -36,21 +36,21 @@ var G__20234 = cljs.core.vec(matches);
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20234) : f.call(null,G__20234));
 }
 };
-var G__20290 = function (var_args){
+var G__20289 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
 var G__20291__i = 0, G__20291__a = new Array(arguments.length -  0);
 while (G__20291__i < G__20291__a.length) {G__20291__a[G__20291__i] = arguments[G__20291__i + 0]; ++G__20291__i;}
   args = new cljs.core.IndexedSeq(G__20291__a,0,null);
 } 
-return G__20290__delegate.call(this,args);};
-G__20290.cljs$lang$maxFixedArity = 0;
-G__20290.cljs$lang$applyTo = (function (arglist__20292){
+return G__20289__delegate.call(this,args);};
+G__20289.cljs$lang$maxFixedArity = 0;
+G__20289.cljs$lang$applyTo = (function (arglist__20292){
 var args = cljs.core.seq(arglist__20292);
-return G__20290__delegate(args);
+return G__20289__delegate(args);
 });
-G__20290.cljs$core$IFn$_invoke$arity$variadic = G__20290__delegate;
-return G__20290;
+G__20289.cljs$core$IFn$_invoke$arity$variadic = G__20289__delegate;
+return G__20289;
 })()
 ;
 });
@@ -224,12 +224,12 @@ clojure.string.split_with_empty_regex = (function clojure$string$split_with_empt
 if((((limit <= (0))) || ((limit >= ((2) + cljs.core.count(s)))))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.vec(cljs.core.cons("",cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.seq(s)))),"");
 } else {
-var pred__20244 = cljs.core._EQ__EQ_;
-var expr__20245 = limit;
-if(cljs.core.truth_((pred__20244.cljs$core$IFn$_invoke$arity$2 ? pred__20244.cljs$core$IFn$_invoke$arity$2((1),expr__20245) : pred__20244.call(null,(1),expr__20245)))){
+var pred__20253 = cljs.core._EQ__EQ_;
+var expr__20254 = limit;
+if(cljs.core.truth_((pred__20253.cljs$core$IFn$_invoke$arity$2 ? pred__20253.cljs$core$IFn$_invoke$arity$2((1),expr__20254) : pred__20253.call(null,(1),expr__20254)))){
 return (new cljs.core.PersistentVector(null,1,(5),cljs.core.PersistentVector.EMPTY_NODE,[s],null));
 } else {
-if(cljs.core.truth_((pred__20244.cljs$core$IFn$_invoke$arity$2 ? pred__20244.cljs$core$IFn$_invoke$arity$2((2),expr__20245) : pred__20244.call(null,(2),expr__20245)))){
+if(cljs.core.truth_((pred__20253.cljs$core$IFn$_invoke$arity$2 ? pred__20253.cljs$core$IFn$_invoke$arity$2((2),expr__20254) : pred__20253.call(null,(2),expr__20254)))){
 return (new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,["",s],null));
 } else {
 var c = (limit - (2));
@@ -243,8 +243,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.vec(cljs.core.cons
  *   the maximum number of splits. Not lazy. Returns vector of the splits.
  */
 clojure.string.split = (function clojure$string$split(var_args){
-var G__20248 = arguments.length;
-switch (G__20248) {
+var G__20260 = arguments.length;
+switch (G__20260) {
 case 2:
 return clojure.string.split.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -274,12 +274,12 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
 var m = cljs.core.re_find(re,s__$1);
 if((!((m == null)))){
 var index = s__$1.indexOf(m);
-var G__20307 = s__$1.substring((index + cljs.core.count(m)));
-var G__20308 = (limit__$1 - (1));
-var G__20309 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
-s__$1 = G__20307;
-limit__$1 = G__20308;
-parts = G__20309;
+var G__20306 = s__$1.substring((index + cljs.core.count(m)));
+var G__20307 = (limit__$1 - (1));
+var G__20308 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
+s__$1 = G__20306;
+limit__$1 = G__20307;
+parts = G__20308;
 continue;
 } else {
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
