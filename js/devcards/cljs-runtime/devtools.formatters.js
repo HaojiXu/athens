@@ -162,8 +162,8 @@ devtools.formatters.build_cljs_formatter = (function devtools$formatters$build_c
 var wrap = (function (name,api_call){
 var monitor = cljs.core.partial.cljs$core$IFn$_invoke$arity$2(devtools.formatters.monitor_api_calls,name);
 var sanitizer = cljs.core.partial.cljs$core$IFn$_invoke$arity$2(devtools.formatters.sanitize,name);
-var fexpr__24186_24197 = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(monitor,sanitizer);
-(fexpr__24186_24197.cljs$core$IFn$_invoke$arity$1 ? fexpr__24186_24197.cljs$core$IFn$_invoke$arity$1(api_call) : fexpr__24186_24197.call(null,api_call));
+var fexpr__24186_24196 = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(monitor,sanitizer);
+(fexpr__24186_24196.cljs$core$IFn$_invoke$arity$1 ? fexpr__24186_24196.cljs$core$IFn$_invoke$arity$1(api_call) : fexpr__24186_24196.call(null,api_call));
 
 return api_call;
 });

@@ -160,12 +160,12 @@ if(cljs.core.truth_(progress)){
 var listener_39661 = (function (direction,evt){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(progress,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"direction","direction",-633359395),direction,new cljs.core.Keyword(null,"loaded","loaded",-1246482293),evt.loaded], null),(cljs.core.truth_(evt.lengthComputable)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"total","total",1916810418),evt.total], null):null)], 0)));
 });
-var G__39617_39662 = xhr;
-G__39617_39662.setProgressEventsEnabled(true);
+var G__39617_39663 = xhr;
+G__39617_39663.setProgressEventsEnabled(true);
 
-G__39617_39662.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"upload","upload",-255769218)));
+G__39617_39663.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"upload","upload",-255769218)));
 
-G__39617_39662.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"download","download",-300081668)));
+G__39617_39663.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_39661,new cljs.core.Keyword(null,"download","download",-300081668)));
 
 } else {
 }
@@ -191,12 +191,12 @@ var state_39628__$1 = (function (){var statearr_39630 = state_39628;
 return statearr_39630;
 })();
 if(inst_39621){
-var statearr_39631_39665 = state_39628__$1;
-(statearr_39631_39665[(1)] = (3));
+var statearr_39631_39669 = state_39628__$1;
+(statearr_39631_39669[(1)] = (3));
 
 } else {
-var statearr_39632_39666 = state_39628__$1;
-(statearr_39632_39666[(1)] = (4));
+var statearr_39632_39670 = state_39628__$1;
+(statearr_39632_39670[(1)] = (4));
 
 }
 
@@ -205,20 +205,20 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 if((state_val_39629 === (3))){
 var inst_39623 = xhr.abort();
 var state_39628__$1 = state_39628;
-var statearr_39633_39667 = state_39628__$1;
-(statearr_39633_39667[(2)] = inst_39623);
+var statearr_39633_39671 = state_39628__$1;
+(statearr_39633_39671[(2)] = inst_39623);
 
-(statearr_39633_39667[(1)] = (5));
+(statearr_39633_39671[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_39629 === (4))){
 var state_39628__$1 = state_39628;
-var statearr_39634_39669 = state_39628__$1;
-(statearr_39634_39669[(2)] = null);
+var statearr_39634_39672 = state_39628__$1;
+(statearr_39634_39672[(2)] = null);
 
-(statearr_39634_39669[(1)] = (5));
+(statearr_39634_39672[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -258,8 +258,8 @@ break;
 }
 }catch (e39636){if((e39636 instanceof Object)){
 var ex__37206__auto__ = e39636;
-var statearr_39637_39673 = state_39628;
-(statearr_39637_39673[(5)] = ex__37206__auto__);
+var statearr_39637_39674 = state_39628;
+(statearr_39637_39674[(5)] = ex__37206__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_39628);
@@ -271,8 +271,8 @@ throw e39636;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__37204__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__39674 = state_39628;
-state_39628 = G__39674;
+var G__39675 = state_39628;
+state_39628 = G__39675;
 continue;
 } else {
 return ret_value__37204__auto__;
@@ -393,8 +393,8 @@ break;
 }
 }catch (e39650){if((e39650 instanceof Object)){
 var ex__37206__auto__ = e39650;
-var statearr_39651_39678 = state_39646;
-(statearr_39651_39678[(5)] = ex__37206__auto__);
+var statearr_39651_39680 = state_39646;
+(statearr_39651_39680[(5)] = ex__37206__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_39646);
@@ -406,8 +406,8 @@ throw e39650;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__37204__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__39680 = state_39646;
-state_39646 = G__39680;
+var G__39681 = state_39646;
+state_39646 = G__39681;
 continue;
 } else {
 return ret_value__37204__auto__;
