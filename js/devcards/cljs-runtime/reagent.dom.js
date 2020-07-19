@@ -147,18 +147,18 @@ count__31991_31997 = G__32009;
 i__31992_31998 = G__32010;
 continue;
 } else {
-var v_32011 = cljs.core.first(seq__31989_32005__$1);
-cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_32011);
+var v_32012 = cljs.core.first(seq__31989_32005__$1);
+cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_32012);
 
 
-var G__32013 = cljs.core.next(seq__31989_32005__$1);
-var G__32014 = null;
-var G__32015 = (0);
+var G__32014 = cljs.core.next(seq__31989_32005__$1);
+var G__32015 = null;
 var G__32016 = (0);
-seq__31989_31995 = G__32013;
-chunk__31990_31996 = G__32014;
-count__31991_31997 = G__32015;
-i__31992_31998 = G__32016;
+var G__32017 = (0);
+seq__31989_31995 = G__32014;
+chunk__31990_31996 = G__32015;
+count__31991_31997 = G__32016;
+i__31992_31998 = G__32017;
 continue;
 }
 } else {
