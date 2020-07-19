@@ -171,9 +171,9 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 sablono.core.include_js = (function sablono$core$include_js(src){
 var G__41819 = goog.dom.getDocument().body;
-var G__41820 = (function (){var G__41821 = "script";
-var G__41822 = ({"src": src});
-return goog.dom.createDom(G__41821,G__41822);
+var G__41820 = (function (){var G__41822 = "script";
+var G__41823 = ({"src": src});
+return goog.dom.createDom(G__41822,G__41823);
 })();
 return goog.dom.appendChild(G__41819,G__41820);
 });
@@ -261,11 +261,11 @@ return e_mail;
 (sablono.core.mail_to41836.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.mail_to41836.cljs$lang$applyTo = (function (seq41838){
-var G__41840 = cljs.core.first(seq41838);
-var seq41838__$1 = cljs.core.next(seq41838);
+(sablono.core.mail_to41836.cljs$lang$applyTo = (function (seq41839){
+var G__41840 = cljs.core.first(seq41839);
+var seq41839__$1 = cljs.core.next(seq41839);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41840,seq41838__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41840,seq41839__$1);
 }));
 
 
@@ -291,8 +291,8 @@ if((i__41855 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__41855);
 cljs.core.chunk_append(b__41856,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__41985 = (i__41855 + (1));
-i__41855 = G__41985;
+var G__41987 = (i__41855 + (1));
+i__41855 = G__41987;
 continue;
 } else {
 return true;
@@ -341,8 +341,8 @@ if((i__41866 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__41866);
 cljs.core.chunk_append(b__41867,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__41988 = (i__41866 + (1));
-i__41866 = G__41988;
+var G__41989 = (i__41866 + (1));
+i__41866 = G__41989;
 continue;
 } else {
 return true;
@@ -374,8 +374,8 @@ sablono.core.ordered_list = sablono.core.wrap_attrs(sablono.core.ordered_list418
  * Create an image element.
  */
 sablono.core.image41870 = (function sablono$core$image41870(var_args){
-var G__41872 = arguments.length;
-switch (G__41872) {
+var G__41873 = arguments.length;
+switch (G__41873) {
 case 1:
 return sablono.core.image41870.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
