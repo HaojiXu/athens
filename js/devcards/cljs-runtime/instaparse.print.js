@@ -2,10 +2,10 @@ goog.provide('instaparse.print');
 goog.require('cljs.core');
 goog.require('clojure.string');
 instaparse.print.paren_for_tags = (function instaparse$print$paren_for_tags(tag_set,hidden_QMARK_,parser){
-if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__56206 = (function (){var G__56207 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
-return (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(G__56207) : parser.call(null,G__56207));
+if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__56208 = (function (){var G__56209 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
+return (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(G__56209) : parser.call(null,G__56209));
 })();
-return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__56206) : tag_set.call(null,G__56206));
+return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__56208) : tag_set.call(null,G__56208));
 })():false))){
 return ["(",cljs.core.str.cljs$core$IFn$_invoke$arity$1((instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2 ? instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2(parser,false) : instaparse.print.combinators__GT_str.call(null,parser,false))),")"].join('');
 } else {
@@ -17,8 +17,8 @@ instaparse.print.paren_for_compound = cljs.core.partial.cljs$core$IFn$_invoke$ar
  * Replaces whitespace characters with escape sequences for better printing
  */
 instaparse.print.regexp_replace = (function instaparse$print$regexp_replace(s){
-var G__56208 = s;
-switch (G__56208) {
+var G__56210 = s;
+switch (G__56210) {
 case "\n":
 return "\\n";
 
@@ -55,11 +55,11 @@ return n.toString((16));
 }
 });
 
-instaparse.print.char_range__GT_str = (function instaparse$print$char_range__GT_str(p__56209){
-var map__56210 = p__56209;
-var map__56210__$1 = (((((!((map__56210 == null))))?(((((map__56210.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56210.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56210):map__56210);
-var lo = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56210__$1,new cljs.core.Keyword(null,"lo","lo",-931799889));
-var hi = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56210__$1,new cljs.core.Keyword(null,"hi","hi",-1821422114));
+instaparse.print.char_range__GT_str = (function instaparse$print$char_range__GT_str(p__56211){
+var map__56212 = p__56211;
+var map__56212__$1 = (((((!((map__56212 == null))))?(((((map__56212.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56212.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56212):map__56212);
+var lo = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56212__$1,new cljs.core.Keyword(null,"lo","lo",-931799889));
+var hi = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56212__$1,new cljs.core.Keyword(null,"hi","hi",-1821422114));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(lo,hi)){
 return ["%x",cljs.core.str.cljs$core$IFn$_invoke$arity$1(instaparse.print.number__GT_hex_padded(lo))].join('');
 } else {
@@ -143,40 +143,40 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$2(" ",cljs.core.map.cljs$
 break;
 case "string":
 var sb__4720__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__56220_56245 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__56221_56246 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__56222_56247 = true;
-var _STAR_print_fn_STAR__temp_val__56223_56248 = (function (x__4721__auto__){
+var _STAR_print_newline_STAR__orig_val__56220_56246 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__56221_56247 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__56222_56248 = true;
+var _STAR_print_fn_STAR__temp_val__56223_56249 = (function (x__4721__auto__){
 return sb__4720__auto__.append(x__4721__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__56222_56247);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__56222_56248);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__56223_56248);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__56223_56249);
 
 try{cljs.core.pr.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"string","string",-1989541586).cljs$core$IFn$_invoke$arity$1(p)], 0));
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__56221_56246);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__56221_56247);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__56220_56245);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__56220_56246);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 
 break;
 case "string-ci":
 var sb__4720__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__56224_56249 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__56225_56250 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__56226_56251 = true;
-var _STAR_print_fn_STAR__temp_val__56227_56252 = (function (x__4721__auto__){
+var _STAR_print_newline_STAR__orig_val__56224_56250 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__56225_56251 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__56226_56252 = true;
+var _STAR_print_fn_STAR__temp_val__56227_56253 = (function (x__4721__auto__){
 return sb__4720__auto__.append(x__4721__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__56226_56251);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__56226_56252);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__56227_56252);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__56227_56253);
 
 try{cljs.core.pr.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"string","string",-1989541586).cljs$core$IFn$_invoke$arity$1(p)], 0));
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__56225_56250);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__56225_56251);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__56224_56249);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__56224_56250);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 
@@ -225,37 +225,37 @@ return [cljs.core.name(non_terminal)," = ",cljs.core.str.cljs$core$IFn$_invoke$a
  * Takes a Parser object, i.e., something with a grammar map and a start 
  * production keyword, and stringifies it.
  */
-instaparse.print.Parser__GT_str = (function instaparse$print$Parser__GT_str(p__56228){
-var map__56229 = p__56228;
-var map__56229__$1 = (((((!((map__56229 == null))))?(((((map__56229.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56229.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56229):map__56229);
-var grammar = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56229__$1,new cljs.core.Keyword(null,"grammar","grammar",1881328267));
-var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56229__$1,new cljs.core.Keyword(null,"start-production","start-production",687546537));
-return clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.cons(instaparse.print.rule__GT_str(start,(grammar.cljs$core$IFn$_invoke$arity$1 ? grammar.cljs$core$IFn$_invoke$arity$1(start) : grammar.call(null,start))),(function (){var iter__4582__auto__ = (function instaparse$print$Parser__GT_str_$_iter__56231(s__56232){
+instaparse.print.Parser__GT_str = (function instaparse$print$Parser__GT_str(p__56229){
+var map__56230 = p__56229;
+var map__56230__$1 = (((((!((map__56230 == null))))?(((((map__56230.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56230.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56230):map__56230);
+var grammar = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56230__$1,new cljs.core.Keyword(null,"grammar","grammar",1881328267));
+var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56230__$1,new cljs.core.Keyword(null,"start-production","start-production",687546537));
+return clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.cons(instaparse.print.rule__GT_str(start,(grammar.cljs$core$IFn$_invoke$arity$1 ? grammar.cljs$core$IFn$_invoke$arity$1(start) : grammar.call(null,start))),(function (){var iter__4582__auto__ = (function instaparse$print$Parser__GT_str_$_iter__56232(s__56233){
 return (new cljs.core.LazySeq(null,(function (){
-var s__56232__$1 = s__56232;
+var s__56233__$1 = s__56233;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__56232__$1);
+var temp__5735__auto__ = cljs.core.seq(s__56233__$1);
 if(temp__5735__auto__){
-var s__56232__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__56232__$2)){
-var c__4580__auto__ = cljs.core.chunk_first(s__56232__$2);
+var s__56233__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__56233__$2)){
+var c__4580__auto__ = cljs.core.chunk_first(s__56233__$2);
 var size__4581__auto__ = cljs.core.count(c__4580__auto__);
-var b__56234 = cljs.core.chunk_buffer(size__4581__auto__);
-if((function (){var i__56233 = (0);
+var b__56235 = cljs.core.chunk_buffer(size__4581__auto__);
+if((function (){var i__56234 = (0);
 while(true){
-if((i__56233 < size__4581__auto__)){
-var vec__56235 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__56233);
-var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56235,(0),null);
-var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56235,(1),null);
+if((i__56234 < size__4581__auto__)){
+var vec__56236 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__56234);
+var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56236,(0),null);
+var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56236,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
-cljs.core.chunk_append(b__56234,instaparse.print.rule__GT_str(non_terminal,parser));
+cljs.core.chunk_append(b__56235,instaparse.print.rule__GT_str(non_terminal,parser));
 
-var G__56253 = (i__56233 + (1));
-i__56233 = G__56253;
+var G__56254 = (i__56234 + (1));
+i__56234 = G__56254;
 continue;
 } else {
-var G__56254 = (i__56233 + (1));
-i__56233 = G__56254;
+var G__56255 = (i__56234 + (1));
+i__56234 = G__56255;
 continue;
 }
 } else {
@@ -264,19 +264,19 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__56234),instaparse$print$Parser__GT_str_$_iter__56231(cljs.core.chunk_rest(s__56232__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__56235),instaparse$print$Parser__GT_str_$_iter__56232(cljs.core.chunk_rest(s__56233__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__56234),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__56235),null);
 }
 } else {
-var vec__56238 = cljs.core.first(s__56232__$2);
-var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56238,(0),null);
-var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56238,(1),null);
+var vec__56239 = cljs.core.first(s__56233__$2);
+var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56239,(0),null);
+var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56239,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
-return cljs.core.cons(instaparse.print.rule__GT_str(non_terminal,parser),instaparse$print$Parser__GT_str_$_iter__56231(cljs.core.rest(s__56232__$2)));
+return cljs.core.cons(instaparse.print.rule__GT_str(non_terminal,parser),instaparse$print$Parser__GT_str_$_iter__56232(cljs.core.rest(s__56233__$2)));
 } else {
-var G__56256 = cljs.core.rest(s__56232__$2);
-s__56232__$1 = G__56256;
+var G__56256 = cljs.core.rest(s__56233__$2);
+s__56233__$1 = G__56256;
 continue;
 }
 }

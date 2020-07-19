@@ -68,8 +68,8 @@ reagent.impl.component.get_children = (function reagent$impl$component$get_child
 var p = c.props;
 var temp__5737__auto__ = p.argv;
 if((temp__5737__auto__ == null)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,(function (){var G__31792 = p.children;
-return module$node_modules$react$index.Children.toArray(G__31792);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,(function (){var G__31796 = p.children;
+return module$node_modules$react$index.Children.toArray(G__31796);
 })());
 } else {
 var v = temp__5737__auto__;
@@ -87,12 +87,12 @@ return G__31798__$1.reagentRender;
 })() == null)))));
 });
 reagent.impl.component.react_class_QMARK_ = (function reagent$impl$component$react_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31800 = c;
-var G__31800__$1 = (((G__31800 == null))?null:G__31800.prototype);
-if((G__31800__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31802 = c;
+var G__31802__$1 = (((G__31802 == null))?null:G__31802.prototype);
+if((G__31802__$1 == null)){
 return null;
 } else {
-return G__31800__$1.render;
+return G__31802__$1.render;
 }
 })() == null)))));
 });
@@ -131,8 +131,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31806 = n;
-switch (G__31806) {
+var G__31808 = n;
+switch (G__31808) {
 case (1):
 return f.call(c);
 
@@ -478,13 +478,13 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(fmap__$1,new cljs.co
 });
 reagent.impl.component.map_to_js = (function reagent$impl$component$map_to_js(m){
 return cljs.core.reduce_kv((function (o,k,v){
-var G__31854 = o;
-var G__31855_31917 = G__31854;
-var G__31856_31918 = cljs.core.name(k);
-var G__31857_31919 = v;
-goog.object.set(G__31855_31917,G__31856_31918,G__31857_31919);
+var G__31850 = o;
+var G__31851_31917 = G__31850;
+var G__31852_31918 = cljs.core.name(k);
+var G__31853_31919 = v;
+goog.object.set(G__31851_31917,G__31852_31918,G__31853_31919);
 
-return G__31854;
+return G__31850;
 }),({}),m);
 });
 reagent.impl.component.cljsify = (function reagent$impl$component$cljsify(body){
@@ -601,11 +601,11 @@ return res;
 }
 });
 reagent.impl.component.component_path = (function reagent$impl$component$component_path(c){
-var temp__5733__auto__ = (function (){var or__4185__auto__ = (function (){var G__31888 = c;
-if((G__31888 == null)){
+var temp__5733__auto__ = (function (){var or__4185__auto__ = (function (){var G__31887 = c;
+if((G__31887 == null)){
 return null;
 } else {
-return goog.object.get(G__31888,"_reactInternalFiber");
+return goog.object.get(G__31887,"_reactInternalFiber");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -633,11 +633,11 @@ return goog.object.get(G__31891,"_reactInternalInstance");
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var or__4185__auto____$1 = (function (){var G__31896 = c;
-if((G__31896 == null)){
+var or__4185__auto____$1 = (function (){var G__31893 = c;
+if((G__31893 == null)){
 return null;
 } else {
-return G__31896._reactInternalInstance;
+return G__31893._reactInternalInstance;
 }
 })();
 if(cljs.core.truth_(or__4185__auto____$1)){
@@ -647,11 +647,11 @@ return c;
 }
 }
 })();
-var elem = (function (){var or__4185__auto__ = (function (){var G__31898 = instance;
-if((G__31898 == null)){
+var elem = (function (){var or__4185__auto__ = (function (){var G__31895 = instance;
+if((G__31895 == null)){
 return null;
 } else {
-return goog.object.get(G__31898,"_currentElement");
+return goog.object.get(G__31895,"_currentElement");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
