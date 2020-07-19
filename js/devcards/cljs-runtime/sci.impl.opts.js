@@ -46,31 +46,31 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
-var G__59855 = null;
-var G__59855__1 = (function (msg){
+var G__59857 = null;
+var G__59857__1 = (function (msg){
 return (new Error(msg));
 });
-var G__59855__2 = (function (msg,filename){
+var G__59857__2 = (function (msg,filename){
 return (new Error(msg,filename));
 });
-var G__59855__3 = (function (msg,filename,line){
+var G__59857__3 = (function (msg,filename,line){
 return (new Error(msg,filename,line));
 });
-G__59855 = function(msg,filename,line){
+G__59857 = function(msg,filename,line){
 switch(arguments.length){
 case 1:
-return G__59855__1.call(this,msg);
+return G__59857__1.call(this,msg);
 case 2:
-return G__59855__2.call(this,msg,filename);
+return G__59857__2.call(this,msg,filename);
 case 3:
-return G__59855__3.call(this,msg,filename,line);
+return G__59857__3.call(this,msg,filename,line);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__59855.cljs$core$IFn$_invoke$arity$1 = G__59855__1;
-G__59855.cljs$core$IFn$_invoke$arity$2 = G__59855__2;
-G__59855.cljs$core$IFn$_invoke$arity$3 = G__59855__3;
-return G__59855;
+G__59857.cljs$core$IFn$_invoke$arity$1 = G__59857__1;
+G__59857.cljs$core$IFn$_invoke$arity$2 = G__59857__2;
+G__59857.cljs$core$IFn$_invoke$arity$3 = G__59857__3;
+return G__59857;
 })()
 ], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59832_SHARP_){
 return (new cljs.core.Delay(p1__59832_SHARP_,null));
@@ -84,9 +84,9 @@ var kvs = classes;
 while(true){
 var temp__5733__auto__ = cljs.core.first(kvs);
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__59837 = temp__5733__auto__;
-var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59837,(0),null);
-var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59837,(1),null);
+var vec__59840 = temp__5733__auto__;
+var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59840,(0),null);
+var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59840,(1),null);
 var G__59859 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
 var G__59860 = cljs.core.rest(kvs);
 class__GT_opts = G__59859;

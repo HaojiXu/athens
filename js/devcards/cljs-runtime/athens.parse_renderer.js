@@ -1,6 +1,6 @@
 goog.provide('athens.parse_renderer');
 goog.require('cljs.core');
-goog.require('athens.components_util');
+goog.require('athens.components.components_util');
 goog.require('athens.db');
 goog.require('athens.parser');
 goog.require('athens.router');
@@ -65,7 +65,7 @@ var url = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58333__$1,new cljs.co
 var alt = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58333__$1,new cljs.core.Keyword(null,"alt","alt",-3214426));
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"img","img",1442687358),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(athens.parse_renderer.image,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"class","class",-2030961996),"url-image",new cljs.core.Keyword(null,"alt","alt",-3214426),alt,new cljs.core.Keyword(null,"src","src",-1651076051),url], null))], null);
 }),(function (contents){
-return athens.components_util.render_component(contents,uid);
+return athens.components.components_util.render_component(contents,uid);
 }),(function() { 
 var G__58349__delegate = function (title){
 return athens.parse_renderer.render_page_link(title);

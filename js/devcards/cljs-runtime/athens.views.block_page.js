@@ -136,9 +136,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__58513),null);
 }
 } else {
 var child = cljs.core.first(s__58511__$2);
-return cljs.core.cons((function (){var map__58517 = child;
-var map__58517__$1 = (((((!((map__58517 == null))))?(((((map__58517.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58517.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58517):map__58517);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58517__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+return cljs.core.cons((function (){var map__58516 = child;
+var map__58516__$1 = (((((!((map__58516 == null))))?(((((map__58516.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58516.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58516):map__58516);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58516__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })(),athens$views$block_page$block_page_el_$_iter__58510(cljs.core.rest(s__58511__$2)));
 }
@@ -155,8 +155,8 @@ return iter__4582__auto__(children);
 athens.views.block_page.block_page_component = (function athens$views$block_page$block_page_component(ident){
 var block = athens.db.get_block_document(ident);
 var parents = athens.db.get_parents_recursively(ident);
-var editing_uid = cljs.core.deref((function (){var G__58525 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58525) : re_frame.core.subscribe.call(null,G__58525));
+var editing_uid = cljs.core.deref((function (){var G__58522 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58522) : re_frame.core.subscribe.call(null,G__58522));
 })());
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.block_page.block_page_el,block,parents,editing_uid], null);
 });
