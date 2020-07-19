@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50200__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__50188(cljs.core.rest(s__50189__$2)));
 } else {
-var G__50270 = cljs.core.rest(s__50189__$2);
-s__50189__$1 = G__50270;
+var G__50264 = cljs.core.rest(s__50189__$2);
+s__50189__$1 = G__50264;
 continue;
 }
 }
