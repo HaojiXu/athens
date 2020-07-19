@@ -12,25 +12,17 @@ athens.components.todo.component_todo = new cljs.core.PersistentArrayMap(null, 2
 var fexpr__56191_56193 = cljs.core.constantly(null);
 (fexpr__56191_56193.cljs$core$IFn$_invoke$arity$2 ? fexpr__56191_56193.cljs$core$IFn$_invoke$arity$2(content,uid) : fexpr__56191_56193.call(null,content,uid));
 
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),"checkbox",new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (e){
-e.preventDefault();
-
-e.stopPropagation();
-
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),"checkbox",new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return athens.components.todo.todo_on_click(uid,/\{\{\[\[TODO\]\]\}\}/,"{{[[DONE]]}}");
-})], null)], null)], null);
+})], null)], null);
 })], null);
 athens.components.todo.component_done = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"match","match",1220059550),/\[\[DONE\]\]/,new cljs.core.Keyword(null,"render","render",-1408033454),(function (content,uid){
 var fexpr__56192_56194 = cljs.core.constantly(null);
 (fexpr__56192_56194.cljs$core$IFn$_invoke$arity$2 ? fexpr__56192_56194.cljs$core$IFn$_invoke$arity$2(content,uid) : fexpr__56192_56194.call(null,content,uid));
 
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"checkbox",new cljs.core.Keyword(null,"checked","checked",-50955819),"true",new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (e){
-e.preventDefault();
-
-e.stopPropagation();
-
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1174270348),"checkbox",new cljs.core.Keyword(null,"checked","checked",-50955819),"true",new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return athens.components.todo.todo_on_click(uid,/\{\{\[\[DONE\]\]\}\}/,"{{[[TODO]]}}");
-})], null)], null)], null);
+})], null)], null);
 })], null);
 athens.components.todo.components = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.components.todo.component_todo,athens.components.todo.component_done], null);
 

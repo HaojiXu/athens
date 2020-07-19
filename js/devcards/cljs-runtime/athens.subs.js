@@ -159,10 +159,10 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__55941) : re_frame.core.subscribe.call(null,G__55941));
 })()], null);
 });
-var G__55940_56001 = (function (p__55942,p__55943){
-var vec__55947 = p__55942;
+var G__55940_56001 = (function (p__55945,p__55946){
+var vec__55947 = p__55945;
 var editing_uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55947,(0),null);
-var vec__55950 = p__55943;
+var vec__55950 = p__55946;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55950,(0),null);
 var uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55950,(1),null);
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(editing_uid,uid);
