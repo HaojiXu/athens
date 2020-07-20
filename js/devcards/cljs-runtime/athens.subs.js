@@ -17,11 +17,11 @@ var G__55909_55982 = (function (db,_){
 return new cljs.core.Keyword(null,"alert","alert",-571950580).cljs$core$IFn$_invoke$arity$1(db);
 });
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55908_55981,G__55909_55982) : re_frame.core.reg_sub.call(null,G__55908_55981,G__55909_55982));
-var G__55913_55983 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
-var G__55914_55984 = (function (db,_){
+var G__55910_55983 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
+var G__55911_55984 = (function (db,_){
 return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55913_55983,G__55914_55984) : re_frame.core.reg_sub.call(null,G__55913_55983,G__55914_55984));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55910_55983,G__55911_55984) : re_frame.core.reg_sub.call(null,G__55910_55983,G__55911_55984));
 var G__55915_55985 = new cljs.core.Keyword("athena","open","athena/open",1253777725);
 var G__55916_55986 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
@@ -64,8 +64,8 @@ throw e;
 return new cljs.core.Keyword("devtool","open","devtool/open",-1176270029).cljs$core$IFn$_invoke$arity$1(db);
 }));
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55918_55987,G__55919_55988) : re_frame.core.reg_sub.call(null,G__55918_55987,G__55919_55988));
-var G__55921_55989 = new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270);
-var G__55922_55990 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var G__55924_55989 = new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270);
+var G__55925_55990 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -84,7 +84,7 @@ throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55921_55989,G__55922_55990) : re_frame.core.reg_sub.call(null,G__55921_55989,G__55922_55990));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55924_55989,G__55925_55990) : re_frame.core.reg_sub.call(null,G__55924_55989,G__55925_55990));
 var G__55927_55991 = new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133);
 var G__55928_55992 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;

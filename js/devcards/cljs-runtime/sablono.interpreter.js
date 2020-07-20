@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__39947_39975 = next_state;
-var G__39948_39976 = next_props;
-var G__39949_39977 = ({"onChange": on_change});
-goog.object.extend(G__39947_39975,G__39948_39976,G__39949_39977);
+var G__39941_39975 = next_state;
+var G__39942_39976 = next_props;
+var G__39943_39977 = ({"onChange": on_change});
+goog.object.extend(G__39941_39975,G__39942_39976,G__39943_39977);
 
 goog.object.set(next_state,property,value);
 
@@ -51,13 +51,13 @@ sablono.interpreter.wrap_form_element = (function sablono$interpreter$wrap_form_
 var ctor = (function (props){
 var this$ = this;
 (this$.state = (function (){var state = ({});
-var G__39950_39978 = state;
-var G__39951_39979 = props;
-var G__39952_39980 = ({"onChange": (function (){var G__39953 = goog.object.get(this$,"onChange");
-var G__39954 = this$;
-return goog.bind(G__39953,G__39954);
+var G__39947_39978 = state;
+var G__39948_39979 = props;
+var G__39949_39980 = ({"onChange": (function (){var G__39950 = goog.object.get(this$,"onChange");
+var G__39951 = this$;
+return goog.bind(G__39950,G__39951);
 })()});
-goog.object.extend(G__39950_39978,G__39951_39979,G__39952_39980);
+goog.object.extend(G__39947_39978,G__39948_39979,G__39949_39980);
 
 return state;
 })());
