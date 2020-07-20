@@ -44,11 +44,11 @@ return (level.cljs$core$IFn$_invoke$arity$1 ? level.cljs$core$IFn$_invoke$arity$
 (re_frame.loggers.console.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.loggers.console.cljs$lang$applyTo = (function (seq45698){
-var G__45699 = cljs.core.first(seq45698);
-var seq45698__$1 = cljs.core.next(seq45698);
+(re_frame.loggers.console.cljs$lang$applyTo = (function (seq45701){
+var G__45702 = cljs.core.first(seq45701);
+var seq45701__$1 = cljs.core.next(seq45701);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45699,seq45698__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45702,seq45701__$1);
 }));
 
 /**

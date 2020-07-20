@@ -196,7 +196,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,obj);
 }
-}catch (e23823){var _e__20802__auto__ = e23823;
+}catch (e23823){var _e__20786__auto__ = e23823;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -215,7 +215,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,obj);
 }
-}catch (e23825){var _e__20802__auto__ = e23825;
+}catch (e23827){var _e__20786__auto__ = e23827;
 return false;
 }}
 })())){

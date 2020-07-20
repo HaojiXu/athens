@@ -356,11 +356,11 @@ return devtools.formatters.templating.concat_templates_BANG_.cljs$core$IFn$_invo
 (devtools.formatters.templating.extend_template_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23826){
-var G__23827 = cljs.core.first(seq23826);
-var seq23826__$1 = cljs.core.next(seq23826);
+(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23825){
+var G__23826 = cljs.core.first(seq23825);
+var seq23825__$1 = cljs.core.next(seq23825);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23827,seq23826__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23826,seq23825__$1);
 }));
 
 devtools.formatters.templating.make_surrogate = (function devtools$formatters$templating$make_surrogate(var_args){
@@ -454,8 +454,8 @@ while(true){
 if((i__4790__auto___23939 < len__4789__auto___23938)){
 args__4795__auto__.push((arguments[i__4790__auto___23939]));
 
-var G__23940 = (i__4790__auto___23939 + (1));
-i__4790__auto___23939 = G__23940;
+var G__23941 = (i__4790__auto___23939 + (1));
+i__4790__auto___23939 = G__23941;
 continue;
 } else {
 }
@@ -609,17 +609,17 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23969 = initial_value;
-var G__23970 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23969;
-value = G__23970;
+var G__23972 = initial_value;
+var G__23973 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23972;
+value = G__23973;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23971 = initial_value;
-var G__23972 = devtools.formatters.helpers.pref(value);
-initial_value = G__23971;
-value = G__23972;
+var G__23974 = initial_value;
+var G__23975 = devtools.formatters.helpers.pref(value);
+initial_value = G__23974;
+value = G__23975;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
