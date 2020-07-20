@@ -102,9 +102,9 @@ var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56205__$1,new cljs.co
 if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?new cljs.core.Keyword(null,"hide","hide",-596913169).cljs$core$IFn$_invoke$arity$1(p):false))){
 return ["<",cljs.core.str.cljs$core$IFn$_invoke$arity$1(instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2(p,true)),">"].join('');
 } else {
-var G__56207 = tag;
-var G__56207__$1 = (((G__56207 instanceof cljs.core.Keyword))?G__56207.fqn:null);
-switch (G__56207__$1) {
+var G__56208 = tag;
+var G__56208__$1 = (((G__56208 instanceof cljs.core.Keyword))?G__56208.fqn:null);
+switch (G__56208__$1) {
 case "epsilon":
 return "\u03B5";
 
@@ -202,7 +202,7 @@ return ["!",cljs.core.str.cljs$core$IFn$_invoke$arity$1((instaparse.print.paren_
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56207__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56208__$1)].join('')));
 
 }
 }
@@ -275,8 +275,8 @@ var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56228,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
 return cljs.core.cons(instaparse.print.rule__GT_str(non_terminal,parser),instaparse$print$Parser__GT_str_$_iter__56221(cljs.core.rest(s__56222__$2)));
 } else {
-var G__56245 = cljs.core.rest(s__56222__$2);
-s__56222__$1 = G__56245;
+var G__56246 = cljs.core.rest(s__56222__$2);
+s__56222__$1 = G__56246;
 continue;
 }
 }

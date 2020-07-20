@@ -18,8 +18,8 @@ instaparse.core._STAR_default_output_format_STAR_ = new cljs.core.Keyword(null,"
  * Changes the default output format.  Input should be :hiccup or :enlive
  */
 instaparse.core.set_default_output_format_BANG_ = (function instaparse$core$set_default_output_format_BANG_(type){
-if(cljs.core.truth_((function (){var fexpr__57942 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
-return (fexpr__57942.cljs$core$IFn$_invoke$arity$1 ? fexpr__57942.cljs$core$IFn$_invoke$arity$1(type) : fexpr__57942.call(null,type));
+if(cljs.core.truth_((function (){var fexpr__57941 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
+return (fexpr__57941.cljs$core$IFn$_invoke$arity$1 ? fexpr__57941.cljs$core$IFn$_invoke$arity$1(type) : fexpr__57941.call(null,type));
 })())){
 } else {
 throw (new Error("Assert failed: (#{:hiccup :enlive} type)"));
@@ -99,10 +99,10 @@ var argseq__4796__auto__ = ((((2) < args__4795__auto__.length))?(new cljs.core.I
 return instaparse.core.parse.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4796__auto__);
 });
 
-(instaparse.core.parse.cljs$core$IFn$_invoke$arity$variadic = (function (parser,text,p__57970){
-var map__57972 = p__57970;
-var map__57972__$1 = (((((!((map__57972 == null))))?(((((map__57972.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__57972.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__57972):map__57972);
-var options = map__57972__$1;
+(instaparse.core.parse.cljs$core$IFn$_invoke$arity$variadic = (function (parser,text,p__57968){
+var map__57970 = p__57968;
+var map__57970__$1 = (((((!((map__57970 == null))))?(((((map__57970.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__57970.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__57970):map__57970);
+var options = map__57970__$1;
 if(cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [null,null,new cljs.core.Keyword(null,"tags","tags",1771418977),null,new cljs.core.Keyword(null,"content","content",15833224),null,new cljs.core.Keyword(null,"all","all",892129742),null], null), null),cljs.core.get.cljs$core$IFn$_invoke$arity$2(options,new cljs.core.Keyword(null,"unhide","unhide",-413983695)))){
 } else {
 throw (new Error("Assert failed: (contains? #{nil :tags :content :all} (get options :unhide))"));
@@ -172,14 +172,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57964,G__57965
  */
 instaparse.core.parses = (function instaparse$core$parses(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58034 = arguments.length;
-var i__4790__auto___58035 = (0);
+var len__4789__auto___58035 = arguments.length;
+var i__4790__auto___58036 = (0);
 while(true){
-if((i__4790__auto___58035 < len__4789__auto___58034)){
-args__4795__auto__.push((arguments[i__4790__auto___58035]));
+if((i__4790__auto___58036 < len__4789__auto___58035)){
+args__4795__auto__.push((arguments[i__4790__auto___58036]));
 
-var G__58036 = (i__4790__auto___58035 + (1));
-i__4790__auto___58035 = G__58036;
+var G__58037 = (i__4790__auto___58036 + (1));
+i__4790__auto___58036 = G__58037;
 continue;
 } else {
 }
@@ -613,14 +613,14 @@ return cljs.core._write(writer,instaparse.print.Parser__GT_str(parser__$1));
  */
 instaparse.core.parser = (function instaparse$core$parser(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58099 = arguments.length;
-var i__4790__auto___58100 = (0);
+var len__4789__auto___58110 = arguments.length;
+var i__4790__auto___58111 = (0);
 while(true){
-if((i__4790__auto___58100 < len__4789__auto___58099)){
-args__4795__auto__.push((arguments[i__4790__auto___58100]));
+if((i__4790__auto___58111 < len__4789__auto___58110)){
+args__4795__auto__.push((arguments[i__4790__auto___58111]));
 
-var G__58101 = (i__4790__auto___58100 + (1));
-i__4790__auto___58100 = G__58101;
+var G__58113 = (i__4790__auto___58111 + (1));
+i__4790__auto___58111 = G__58113;
 continue;
 } else {
 }
