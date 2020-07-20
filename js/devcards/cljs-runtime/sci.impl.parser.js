@@ -49,8 +49,8 @@ return sym;
 return ret;
 });
 sci.impl.parser.parse_next = (function sci$impl$parser$parse_next(var_args){
-var G__59566 = arguments.length;
-switch (G__59566) {
+var G__59567 = arguments.length;
+switch (G__59567) {
 case 1:
 return sci.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

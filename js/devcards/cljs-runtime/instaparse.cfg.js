@@ -153,9 +153,9 @@ var G__57376 = (instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cf
 var G__57376__$1 = (((G__57376 instanceof cljs.core.Keyword))?G__57376.fqn:null);
 switch (G__57376__$1) {
 case "rule":
-var vec__57377 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.contents.call(null,tree));
-var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57377,(0),null);
-var alt_or_ord = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57377,(1),null);
+var vec__57381 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.contents.call(null,tree));
+var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57381,(0),null);
+var alt_or_ord = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57381,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.tag.call(null,nt)),new cljs.core.Keyword(null,"hide-nt","hide-nt",-228813845))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__57384 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt));
 return (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(G__57384) : instaparse.cfg.content.call(null,G__57384));
@@ -226,8 +226,8 @@ return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg
 
 break;
 case "neg":
-return instaparse.combinators_source.neg((function (){var G__57390 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__57390) : instaparse.cfg.build_rule.call(null,G__57390));
+return instaparse.combinators_source.neg((function (){var G__57391 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__57391) : instaparse.cfg.build_rule.call(null,G__57391));
 })());
 
 break;
