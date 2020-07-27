@@ -18,12 +18,12 @@ return console.warn("Reitit-frontend controller :params is deprecated. Replace w
  * 
  *   Default value is nil, i.e. controller identity doesn't depend on Match.
  */
-reitit.frontend.controllers.get_identity = (function reitit$frontend$controllers$get_identity(p__50473,match){
-var map__50474 = p__50473;
-var map__50474__$1 = (((((!((map__50474 == null))))?(((((map__50474.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50474.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50474):map__50474);
-var identity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50474__$1,new cljs.core.Keyword(null,"identity","identity",1647396035));
-var parameters = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50474__$1,new cljs.core.Keyword(null,"parameters","parameters",-1229919748));
-var params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50474__$1,new cljs.core.Keyword(null,"params","params",710516235));
+reitit.frontend.controllers.get_identity = (function reitit$frontend$controllers$get_identity(p__50474,match){
+var map__50475 = p__50474;
+var map__50475__$1 = (((((!((map__50475 == null))))?(((((map__50475.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50475.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50475):map__50475);
+var identity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50475__$1,new cljs.core.Keyword(null,"identity","identity",1647396035));
+var parameters = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50475__$1,new cljs.core.Keyword(null,"parameters","parameters",-1229919748));
+var params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50475__$1,new cljs.core.Keyword(null,"params","params",710516235));
 if(cljs.core.not((function (){var and__4174__auto__ = identity;
 if(cljs.core.truth_(and__4174__auto__)){
 return parameters;
@@ -153,31 +153,31 @@ continue;
 } else {
 var temp__5735__auto___50509 = cljs.core.seq(seq__50488_50500);
 if(temp__5735__auto___50509){
-var seq__50488_50510__$1 = temp__5735__auto___50509;
-if(cljs.core.chunked_seq_QMARK_(seq__50488_50510__$1)){
-var c__4609__auto___50511 = cljs.core.chunk_first(seq__50488_50510__$1);
-var G__50512 = cljs.core.chunk_rest(seq__50488_50510__$1);
-var G__50513 = c__4609__auto___50511;
-var G__50514 = cljs.core.count(c__4609__auto___50511);
-var G__50515 = (0);
-seq__50488_50500 = G__50512;
-chunk__50489_50501 = G__50513;
-count__50490_50502 = G__50514;
-i__50491_50503 = G__50515;
+var seq__50488_50511__$1 = temp__5735__auto___50509;
+if(cljs.core.chunked_seq_QMARK_(seq__50488_50511__$1)){
+var c__4609__auto___50512 = cljs.core.chunk_first(seq__50488_50511__$1);
+var G__50513 = cljs.core.chunk_rest(seq__50488_50511__$1);
+var G__50514 = c__4609__auto___50512;
+var G__50515 = cljs.core.count(c__4609__auto___50512);
+var G__50516 = (0);
+seq__50488_50500 = G__50513;
+chunk__50489_50501 = G__50514;
+count__50490_50502 = G__50515;
+i__50491_50503 = G__50516;
 continue;
 } else {
-var controller_50516 = cljs.core.first(seq__50488_50510__$1);
-reitit.frontend.controllers.apply_controller(controller_50516,new cljs.core.Keyword(null,"stop","stop",-2140911342));
+var controller_50517 = cljs.core.first(seq__50488_50511__$1);
+reitit.frontend.controllers.apply_controller(controller_50517,new cljs.core.Keyword(null,"stop","stop",-2140911342));
 
 
-var G__50517 = cljs.core.next(seq__50488_50510__$1);
-var G__50518 = null;
-var G__50519 = (0);
+var G__50518 = cljs.core.next(seq__50488_50511__$1);
+var G__50519 = null;
 var G__50520 = (0);
-seq__50488_50500 = G__50517;
-chunk__50489_50501 = G__50518;
-count__50490_50502 = G__50519;
-i__50491_50503 = G__50520;
+var G__50521 = (0);
+seq__50488_50500 = G__50518;
+chunk__50489_50501 = G__50519;
+count__50490_50502 = G__50520;
+i__50491_50503 = G__50521;
 continue;
 }
 } else {
@@ -186,27 +186,27 @@ continue;
 break;
 }
 
-var seq__50492_50521 = cljs.core.seq(cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"new","new",-2085437848),changed_controllers));
-var chunk__50493_50522 = null;
-var count__50494_50523 = (0);
+var seq__50492_50522 = cljs.core.seq(cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"new","new",-2085437848),changed_controllers));
+var chunk__50493_50523 = null;
+var count__50494_50524 = (0);
 var i__50495_50525 = (0);
 while(true){
-if((i__50495_50525 < count__50494_50523)){
-var controller_50526 = chunk__50493_50522.cljs$core$IIndexed$_nth$arity$2(null,i__50495_50525);
+if((i__50495_50525 < count__50494_50524)){
+var controller_50526 = chunk__50493_50523.cljs$core$IIndexed$_nth$arity$2(null,i__50495_50525);
 reitit.frontend.controllers.apply_controller(controller_50526,new cljs.core.Keyword(null,"start","start",-355208981));
 
 
-var G__50527 = seq__50492_50521;
-var G__50528 = chunk__50493_50522;
-var G__50529 = count__50494_50523;
+var G__50527 = seq__50492_50522;
+var G__50528 = chunk__50493_50523;
+var G__50529 = count__50494_50524;
 var G__50530 = (i__50495_50525 + (1));
-seq__50492_50521 = G__50527;
-chunk__50493_50522 = G__50528;
-count__50494_50523 = G__50529;
+seq__50492_50522 = G__50527;
+chunk__50493_50523 = G__50528;
+count__50494_50524 = G__50529;
 i__50495_50525 = G__50530;
 continue;
 } else {
-var temp__5735__auto___50531 = cljs.core.seq(seq__50492_50521);
+var temp__5735__auto___50531 = cljs.core.seq(seq__50492_50522);
 if(temp__5735__auto___50531){
 var seq__50492_50532__$1 = temp__5735__auto___50531;
 if(cljs.core.chunked_seq_QMARK_(seq__50492_50532__$1)){
@@ -215,9 +215,9 @@ var G__50534 = cljs.core.chunk_rest(seq__50492_50532__$1);
 var G__50535 = c__4609__auto___50533;
 var G__50536 = cljs.core.count(c__4609__auto___50533);
 var G__50537 = (0);
-seq__50492_50521 = G__50534;
-chunk__50493_50522 = G__50535;
-count__50494_50523 = G__50536;
+seq__50492_50522 = G__50534;
+chunk__50493_50523 = G__50535;
+count__50494_50524 = G__50536;
 i__50495_50525 = G__50537;
 continue;
 } else {
@@ -229,9 +229,9 @@ var G__50539 = cljs.core.next(seq__50492_50532__$1);
 var G__50540 = null;
 var G__50541 = (0);
 var G__50542 = (0);
-seq__50492_50521 = G__50539;
-chunk__50493_50522 = G__50540;
-count__50494_50523 = G__50541;
+seq__50492_50522 = G__50539;
+chunk__50493_50523 = G__50540;
+count__50494_50524 = G__50541;
 i__50495_50525 = G__50542;
 continue;
 }
