@@ -1987,13 +1987,13 @@ var wilds_QMARK_ = cljs.core.boolean$(cljs.core.some(reitit.impl.__GT_wild_route
 var all_wilds_QMARK_ = cljs.core.every_QMARK_(reitit.impl.__GT_wild_route_QMARK_(opts__$1),compiled_routes);
 var router__$1 = (cljs.core.truth_(router)?router:((((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(compiled_routes))) && ((!(wilds_QMARK_)))))?reitit.core.single_static_path_router:(cljs.core.truth_(path_conflicting)?reitit.core.quarantine_router:(((!(wilds_QMARK_)))?reitit.core.lookup_router:((all_wilds_QMARK_)?reitit.core.trie_router:reitit.core.mixed_router
 )))));
-var temp__5735__auto___55749 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___55749)){
-var conflicts_55750 = temp__5735__auto___55749;
-var temp__5735__auto___55751__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
-if(cljs.core.truth_(temp__5735__auto___55751__$1)){
-var conflict_report_55752 = temp__5735__auto___55751__$1;
-(conflicts_55750.cljs$core$IFn$_invoke$arity$1 ? conflicts_55750.cljs$core$IFn$_invoke$arity$1(conflict_report_55752) : conflicts_55750.call(null,conflict_report_55752));
+var temp__5735__auto___55734 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___55734)){
+var conflicts_55735 = temp__5735__auto___55734;
+var temp__5735__auto___55736__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
+if(cljs.core.truth_(temp__5735__auto___55736__$1)){
+var conflict_report_55737 = temp__5735__auto___55736__$1;
+(conflicts_55735.cljs$core$IFn$_invoke$arity$1 ? conflicts_55735.cljs$core$IFn$_invoke$arity$1(conflict_report_55737) : conflicts_55735.call(null,conflict_report_55737));
 } else {
 }
 } else {
@@ -2004,10 +2004,10 @@ reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(
 } else {
 }
 
-var temp__5735__auto___55753 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___55753)){
-var validate_55754 = temp__5735__auto___55753;
-(validate_55754.cljs$core$IFn$_invoke$arity$2 ? validate_55754.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_55754.call(null,compiled_routes,opts__$1));
+var temp__5735__auto___55738 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___55738)){
+var validate_55739 = temp__5735__auto___55738;
+(validate_55739.cljs$core$IFn$_invoke$arity$2 ? validate_55739.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_55739.call(null,compiled_routes,opts__$1));
 } else {
 }
 
