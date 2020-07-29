@@ -1,6 +1,7 @@
 goog.provide('athens.util');
 goog.require('cljs.core');
 goog.require('clojure.string');
+goog.require('posh.reagent');
 goog.require('tick.alpha.api');
 goog.require('tick.locale_en_us');
 athens.util.gen_block_uid = (function athens$util$gen_block_uid(){
@@ -47,8 +48,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__55828 = arguments.length;
-switch (G__55828) {
+var G__39198 = arguments.length;
+switch (G__39198) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -84,6 +85,17 @@ var x__$2 = tick.alpha.api.format.cljs$core$IFn$_invoke$arity$2(athens.util.date
 var x__$3 = clojure.string.replace(x__$2,/AM/,"am");
 return clojure.string.replace(x__$3,/PM/,"pm");
 }
+});
+athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39200_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__39200_SHARP_)].join('');
+}),esc_chars));
+})();
+/**
+ * Take a string and escape all regex special characters in it
+ */
+athens.util.escape_str = (function athens$util$escape_str(str){
+return clojure.string.escape(str,athens.util.regex_esc_char_map);
 });
 
 //# sourceMappingURL=athens.util.js.map
