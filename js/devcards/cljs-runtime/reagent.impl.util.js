@@ -31,12 +31,12 @@ if(typeof dashed === 'string'){
 return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
-var vec__31534 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
-var seq__31535 = cljs.core.seq(vec__31534);
-var first__31536 = cljs.core.first(seq__31535);
-var seq__31535__$1 = cljs.core.next(seq__31535);
-var start = first__31536;
-var parts = seq__31535__$1;
+var vec__31536 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
+var seq__31537 = cljs.core.seq(vec__31536);
+var first__31538 = cljs.core.first(seq__31537);
+var seq__31537__$1 = cljs.core.next(seq__31537);
+var start = first__31538;
+var parts = seq__31537__$1;
 if(cljs.core.truth_((reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1(start) : reagent.impl.util.dont_camel_case.call(null,start)))){
 return name_str;
 } else {
@@ -210,10 +210,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31549){
+(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31550){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31549)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31550)));
 }));
 
 (reagent.impl.util.PartialFn.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){
@@ -386,8 +386,8 @@ reagent.impl.util.named_QMARK_ = (function reagent$impl$util$named_QMARK_(x){
 return (((x instanceof cljs.core.Keyword)) || ((x instanceof cljs.core.Symbol)));
 });
 reagent.impl.util.class_names = (function reagent$impl$util$class_names(var_args){
-var G__31631 = arguments.length;
-switch (G__31631) {
+var G__31639 = arguments.length;
+switch (G__31639) {
 case 0:
 return reagent.impl.util.class_names.cljs$core$IFn$_invoke$arity$0();
 
@@ -470,13 +470,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.class_na
 }));
 
 /** @this {Function} */
-(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq31624){
-var G__31625 = cljs.core.first(seq31624);
-var seq31624__$1 = cljs.core.next(seq31624);
-var G__31626 = cljs.core.first(seq31624__$1);
-var seq31624__$2 = cljs.core.next(seq31624__$1);
+(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq31636){
+var G__31637 = cljs.core.first(seq31636);
+var seq31636__$1 = cljs.core.next(seq31636);
+var G__31638 = cljs.core.first(seq31636__$1);
+var seq31636__$2 = cljs.core.next(seq31636__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31625,G__31626,seq31624__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31637,G__31638,seq31636__$2);
 }));
 
 (reagent.impl.util.class_names.cljs$lang$maxFixedArity = (2));
@@ -506,8 +506,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p2,new cljs.core.Keyword(nu
 }
 });
 reagent.impl.util.merge_props = (function reagent$impl$util$merge_props(var_args){
-var G__31645 = arguments.length;
-switch (G__31645) {
+var G__31646 = arguments.length;
+switch (G__31646) {
 case 0:
 return reagent.impl.util.merge_props.cljs$core$IFn$_invoke$arity$0();
 
@@ -581,12 +581,12 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.merge_pr
 
 /** @this {Function} */
 (reagent.impl.util.merge_props.cljs$lang$applyTo = (function (seq31642){
-var G__31643 = cljs.core.first(seq31642);
+var G__31644 = cljs.core.first(seq31642);
 var seq31642__$1 = cljs.core.next(seq31642);
-var G__31644 = cljs.core.first(seq31642__$1);
+var G__31645 = cljs.core.first(seq31642__$1);
 var seq31642__$2 = cljs.core.next(seq31642__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31643,G__31644,seq31642__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31644,G__31645,seq31642__$2);
 }));
 
 (reagent.impl.util.merge_props.cljs$lang$maxFixedArity = (2));
