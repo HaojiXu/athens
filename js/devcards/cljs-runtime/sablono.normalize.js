@@ -8,8 +8,8 @@ goog.require('sablono.util');
  */
 sablono.normalize.compact_map = (function sablono$normalize$compact_map(m){
 if(cljs.core.truth_(m)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__46048){
-var vec__46050 = p__46048;
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__46049){
+var vec__46050 = p__46049;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46050,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46050,(1),null);
 return cljs.core.empty_QMARK_(v);
@@ -190,8 +190,8 @@ return cljs.core.map_QMARK_(x);
 /**
  * Ensure an element vector is of the form [tag-name attrs content].
  */
-sablono.normalize.element = (function sablono$normalize$element(p__46086){
-var vec__46090 = p__46086;
+sablono.normalize.element = (function sablono$normalize$element(p__46089){
+var vec__46090 = p__46089;
 var seq__46091 = cljs.core.seq(vec__46090);
 var first__46092 = cljs.core.first(seq__46091);
 var seq__46091__$1 = cljs.core.next(seq__46091);

@@ -7733,21 +7733,21 @@ var i__30715 = (0);
 while(true){
 if((i__30715 < count__30714)){
 var b = chunk__30713.cljs$core$IIndexed$_nth$arity$2(null,i__30715);
-var vars_31269 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
-if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_31269))){
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_31269)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
+var vars_31271 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
+if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_31271))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_31271)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
 } else {
 }
 
 
-var G__31272 = seq__30711;
-var G__31273 = chunk__30713;
-var G__31274 = count__30714;
-var G__31275 = (i__30715 + (1));
-seq__30711 = G__31272;
-chunk__30713 = G__31273;
-count__30714 = G__31274;
-i__30715 = G__31275;
+var G__31273 = seq__30711;
+var G__31274 = chunk__30713;
+var G__31275 = count__30714;
+var G__31276 = (i__30715 + (1));
+seq__30711 = G__31273;
+chunk__30713 = G__31274;
+count__30714 = G__31275;
+i__30715 = G__31276;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__30711);
@@ -7755,32 +7755,32 @@ if(temp__5735__auto__){
 var seq__30711__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__30711__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__30711__$1);
-var G__31276 = cljs.core.chunk_rest(seq__30711__$1);
-var G__31277 = c__4609__auto__;
-var G__31278 = cljs.core.count(c__4609__auto__);
-var G__31279 = (0);
-seq__30711 = G__31276;
-chunk__30713 = G__31277;
-count__30714 = G__31278;
-i__30715 = G__31279;
+var G__31277 = cljs.core.chunk_rest(seq__30711__$1);
+var G__31278 = c__4609__auto__;
+var G__31279 = cljs.core.count(c__4609__auto__);
+var G__31280 = (0);
+seq__30711 = G__31277;
+chunk__30713 = G__31278;
+count__30714 = G__31279;
+i__30715 = G__31280;
 continue;
 } else {
 var b = cljs.core.first(seq__30711__$1);
-var vars_31280 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
-if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_31280))){
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_31280)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
+var vars_31281 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
+if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_31281))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_31281)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
 } else {
 }
 
 
-var G__31281 = cljs.core.next(seq__30711__$1);
-var G__31282 = null;
-var G__31283 = (0);
+var G__31282 = cljs.core.next(seq__30711__$1);
+var G__31283 = null;
 var G__31284 = (0);
-seq__30711 = G__31281;
-chunk__30713 = G__31282;
-count__30714 = G__31283;
-i__30715 = G__31284;
+var G__31285 = (0);
+seq__30711 = G__31282;
+chunk__30713 = G__31283;
+count__30714 = G__31284;
+i__30715 = G__31285;
 continue;
 }
 } else {
