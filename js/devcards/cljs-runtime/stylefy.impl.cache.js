@@ -42,8 +42,8 @@ return null;
 }
 });
 stylefy.impl.cache.set_cache_created_time = (function stylefy$impl$cache$set_cache_created_time(var_args){
-var G__43530 = arguments.length;
-switch (G__43530) {
+var G__43533 = arguments.length;
+switch (G__43533) {
 case 1:
 return stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

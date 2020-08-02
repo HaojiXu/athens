@@ -35,11 +35,11 @@ return null;
 } else {
 return goog.object.get(G__34505,"US");
 }
-}catch (e34502){if((e34502 instanceof Error)){
-var e = e34502;
+}catch (e34500){if((e34500 instanceof Error)){
+var e = e34500;
 return null;
 } else {
-throw e34502;
+throw e34500;
 
 }
 }})());
@@ -59,8 +59,8 @@ return fmt__$1;
  *   argument. Given one argument uses the default format.
  */
 tick.format.format = (function tick$format$format(var_args){
-var G__34522 = arguments.length;
-switch (G__34522) {
+var G__34519 = arguments.length;
+switch (G__34519) {
 case 1:
 return tick.format.format.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

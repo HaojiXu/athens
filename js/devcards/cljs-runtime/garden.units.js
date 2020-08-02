@@ -145,27 +145,27 @@ var G__40364 = (m1 + m2);
 return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40364) : u.call(null,G__40364));
 });
 var garden$units$make_unit_adder_$_u_PLUS___3 = (function() { 
-var G__40399__delegate = function (x,y,more){
+var G__40404__delegate = function (x,y,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden$units$make_unit_adder_$_u_PLUS_,garden$units$make_unit_adder_$_u_PLUS_.cljs$core$IFn$_invoke$arity$2(x,y),more);
 };
-var G__40399 = function (x,y,var_args){
+var G__40404 = function (x,y,var_args){
 var more = null;
 if (arguments.length > 2) {
-var G__40401__i = 0, G__40401__a = new Array(arguments.length -  2);
-while (G__40401__i < G__40401__a.length) {G__40401__a[G__40401__i] = arguments[G__40401__i + 2]; ++G__40401__i;}
-  more = new cljs.core.IndexedSeq(G__40401__a,0,null);
+var G__40405__i = 0, G__40405__a = new Array(arguments.length -  2);
+while (G__40405__i < G__40405__a.length) {G__40405__a[G__40405__i] = arguments[G__40405__i + 2]; ++G__40405__i;}
+  more = new cljs.core.IndexedSeq(G__40405__a,0,null);
 } 
-return G__40399__delegate.call(this,x,y,more);};
-G__40399.cljs$lang$maxFixedArity = 2;
-G__40399.cljs$lang$applyTo = (function (arglist__40402){
-var x = cljs.core.first(arglist__40402);
-arglist__40402 = cljs.core.next(arglist__40402);
-var y = cljs.core.first(arglist__40402);
-var more = cljs.core.rest(arglist__40402);
-return G__40399__delegate(x,y,more);
+return G__40404__delegate.call(this,x,y,more);};
+G__40404.cljs$lang$maxFixedArity = 2;
+G__40404.cljs$lang$applyTo = (function (arglist__40406){
+var x = cljs.core.first(arglist__40406);
+arglist__40406 = cljs.core.next(arglist__40406);
+var y = cljs.core.first(arglist__40406);
+var more = cljs.core.rest(arglist__40406);
+return G__40404__delegate(x,y,more);
 });
-G__40399.cljs$core$IFn$_invoke$arity$variadic = G__40399__delegate;
-return G__40399;
+G__40404.cljs$core$IFn$_invoke$arity$variadic = G__40404__delegate;
+return G__40404;
 })()
 ;
 garden$units$make_unit_adder_$_u_PLUS_ = function(x,y,var_args){
@@ -178,13 +178,13 @@ return garden$units$make_unit_adder_$_u_PLUS___1.call(this,x);
 case 2:
 return garden$units$make_unit_adder_$_u_PLUS___2.call(this,x,y);
 default:
-var G__40403 = null;
+var G__40407 = null;
 if (arguments.length > 2) {
-var G__40404__i = 0, G__40404__a = new Array(arguments.length -  2);
-while (G__40404__i < G__40404__a.length) {G__40404__a[G__40404__i] = arguments[G__40404__i + 2]; ++G__40404__i;}
-G__40403 = new cljs.core.IndexedSeq(G__40404__a,0,null);
+var G__40408__i = 0, G__40408__a = new Array(arguments.length -  2);
+while (G__40408__i < G__40408__a.length) {G__40408__a[G__40408__i] = arguments[G__40408__i + 2]; ++G__40408__i;}
+G__40407 = new cljs.core.IndexedSeq(G__40408__a,0,null);
 }
-return garden$units$make_unit_adder_$_u_PLUS___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40403);
+return garden$units$make_unit_adder_$_u_PLUS___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40407);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -219,27 +219,27 @@ var G__40370 = (m1 - m2);
 return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40370) : u.call(null,G__40370));
 });
 var garden$units$make_unit_subtractor_$_u___3 = (function() { 
-var G__40406__delegate = function (x,y,more){
+var G__40415__delegate = function (x,y,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden$units$make_unit_subtractor_$_u_,garden$units$make_unit_subtractor_$_u_.cljs$core$IFn$_invoke$arity$2(x,y),more);
 };
-var G__40406 = function (x,y,var_args){
+var G__40415 = function (x,y,var_args){
 var more = null;
 if (arguments.length > 2) {
-var G__40409__i = 0, G__40409__a = new Array(arguments.length -  2);
-while (G__40409__i < G__40409__a.length) {G__40409__a[G__40409__i] = arguments[G__40409__i + 2]; ++G__40409__i;}
-  more = new cljs.core.IndexedSeq(G__40409__a,0,null);
+var G__40416__i = 0, G__40416__a = new Array(arguments.length -  2);
+while (G__40416__i < G__40416__a.length) {G__40416__a[G__40416__i] = arguments[G__40416__i + 2]; ++G__40416__i;}
+  more = new cljs.core.IndexedSeq(G__40416__a,0,null);
 } 
-return G__40406__delegate.call(this,x,y,more);};
-G__40406.cljs$lang$maxFixedArity = 2;
-G__40406.cljs$lang$applyTo = (function (arglist__40411){
-var x = cljs.core.first(arglist__40411);
-arglist__40411 = cljs.core.next(arglist__40411);
-var y = cljs.core.first(arglist__40411);
-var more = cljs.core.rest(arglist__40411);
-return G__40406__delegate(x,y,more);
+return G__40415__delegate.call(this,x,y,more);};
+G__40415.cljs$lang$maxFixedArity = 2;
+G__40415.cljs$lang$applyTo = (function (arglist__40417){
+var x = cljs.core.first(arglist__40417);
+arglist__40417 = cljs.core.next(arglist__40417);
+var y = cljs.core.first(arglist__40417);
+var more = cljs.core.rest(arglist__40417);
+return G__40415__delegate(x,y,more);
 });
-G__40406.cljs$core$IFn$_invoke$arity$variadic = G__40406__delegate;
-return G__40406;
+G__40415.cljs$core$IFn$_invoke$arity$variadic = G__40415__delegate;
+return G__40415;
 })()
 ;
 garden$units$make_unit_subtractor_$_u_ = function(x,y,var_args){
@@ -250,13 +250,13 @@ return garden$units$make_unit_subtractor_$_u___1.call(this,x);
 case 2:
 return garden$units$make_unit_subtractor_$_u___2.call(this,x,y);
 default:
-var G__40412 = null;
+var G__40418 = null;
 if (arguments.length > 2) {
-var G__40413__i = 0, G__40413__a = new Array(arguments.length -  2);
-while (G__40413__i < G__40413__a.length) {G__40413__a[G__40413__i] = arguments[G__40413__i + 2]; ++G__40413__i;}
-G__40412 = new cljs.core.IndexedSeq(G__40413__a,0,null);
+var G__40419__i = 0, G__40419__a = new Array(arguments.length -  2);
+while (G__40419__i < G__40419__a.length) {G__40419__a[G__40419__i] = arguments[G__40419__i + 2]; ++G__40419__i;}
+G__40418 = new cljs.core.IndexedSeq(G__40419__a,0,null);
 }
-return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40412);
+return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40418);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -295,27 +295,27 @@ var G__40375 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arit
 return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40375) : u.call(null,G__40375));
 });
 var garden$units$make_unit_multiplier_$_u_STAR___3 = (function() { 
-var G__40414__delegate = function (x,y,more){
+var G__40420__delegate = function (x,y,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden$units$make_unit_multiplier_$_u_STAR_,garden$units$make_unit_multiplier_$_u_STAR_.cljs$core$IFn$_invoke$arity$2(x,y),more);
 };
-var G__40414 = function (x,y,var_args){
+var G__40420 = function (x,y,var_args){
 var more = null;
 if (arguments.length > 2) {
-var G__40415__i = 0, G__40415__a = new Array(arguments.length -  2);
-while (G__40415__i < G__40415__a.length) {G__40415__a[G__40415__i] = arguments[G__40415__i + 2]; ++G__40415__i;}
-  more = new cljs.core.IndexedSeq(G__40415__a,0,null);
+var G__40421__i = 0, G__40421__a = new Array(arguments.length -  2);
+while (G__40421__i < G__40421__a.length) {G__40421__a[G__40421__i] = arguments[G__40421__i + 2]; ++G__40421__i;}
+  more = new cljs.core.IndexedSeq(G__40421__a,0,null);
 } 
-return G__40414__delegate.call(this,x,y,more);};
-G__40414.cljs$lang$maxFixedArity = 2;
-G__40414.cljs$lang$applyTo = (function (arglist__40416){
-var x = cljs.core.first(arglist__40416);
-arglist__40416 = cljs.core.next(arglist__40416);
-var y = cljs.core.first(arglist__40416);
-var more = cljs.core.rest(arglist__40416);
-return G__40414__delegate(x,y,more);
+return G__40420__delegate.call(this,x,y,more);};
+G__40420.cljs$lang$maxFixedArity = 2;
+G__40420.cljs$lang$applyTo = (function (arglist__40422){
+var x = cljs.core.first(arglist__40422);
+arglist__40422 = cljs.core.next(arglist__40422);
+var y = cljs.core.first(arglist__40422);
+var more = cljs.core.rest(arglist__40422);
+return G__40420__delegate(x,y,more);
 });
-G__40414.cljs$core$IFn$_invoke$arity$variadic = G__40414__delegate;
-return G__40414;
+G__40420.cljs$core$IFn$_invoke$arity$variadic = G__40420__delegate;
+return G__40420;
 })()
 ;
 garden$units$make_unit_multiplier_$_u_STAR_ = function(x,y,var_args){
@@ -328,13 +328,13 @@ return garden$units$make_unit_multiplier_$_u_STAR___1.call(this,x);
 case 2:
 return garden$units$make_unit_multiplier_$_u_STAR___2.call(this,x,y);
 default:
-var G__40417 = null;
+var G__40423 = null;
 if (arguments.length > 2) {
-var G__40418__i = 0, G__40418__a = new Array(arguments.length -  2);
-while (G__40418__i < G__40418__a.length) {G__40418__a[G__40418__i] = arguments[G__40418__i + 2]; ++G__40418__i;}
-G__40417 = new cljs.core.IndexedSeq(G__40418__a,0,null);
+var G__40424__i = 0, G__40424__a = new Array(arguments.length -  2);
+while (G__40424__i < G__40424__a.length) {G__40424__a[G__40424__i] = arguments[G__40424__i + 2]; ++G__40424__i;}
+G__40423 = new cljs.core.IndexedSeq(G__40424__a,0,null);
 }
-return garden$units$make_unit_multiplier_$_u_STAR___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40417);
+return garden$units$make_unit_multiplier_$_u_STAR___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__40423);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };

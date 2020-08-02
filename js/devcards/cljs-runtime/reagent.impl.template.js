@@ -447,10 +447,10 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___32005 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___32005 == null)){
+var temp__5739__auto___32000 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___32000 == null)){
 } else {
-var key_32006 = temp__5739__auto___32005;
+var key_32006 = temp__5739__auto___32000;
 (jsprops.key = key_32006);
 }
 

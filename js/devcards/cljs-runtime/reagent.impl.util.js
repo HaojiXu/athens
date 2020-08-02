@@ -114,8 +114,8 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (reagent.impl.util.PartialFn.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__31551 = (arguments.length - (1));
-switch (G__31551) {
+var G__31552 = (arguments.length - (1));
+switch (G__31552) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -210,10 +210,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31550){
+(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31551){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31550)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31551)));
 }));
 
 (reagent.impl.util.PartialFn.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){
@@ -386,8 +386,8 @@ reagent.impl.util.named_QMARK_ = (function reagent$impl$util$named_QMARK_(x){
 return (((x instanceof cljs.core.Keyword)) || ((x instanceof cljs.core.Symbol)));
 });
 reagent.impl.util.class_names = (function reagent$impl$util$class_names(var_args){
-var G__31639 = arguments.length;
-switch (G__31639) {
+var G__31640 = arguments.length;
+switch (G__31640) {
 case 0:
 return reagent.impl.util.class_names.cljs$core$IFn$_invoke$arity$0();
 
@@ -470,13 +470,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.class_na
 }));
 
 /** @this {Function} */
-(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq31636){
-var G__31637 = cljs.core.first(seq31636);
-var seq31636__$1 = cljs.core.next(seq31636);
-var G__31638 = cljs.core.first(seq31636__$1);
-var seq31636__$2 = cljs.core.next(seq31636__$1);
+(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq31637){
+var G__31638 = cljs.core.first(seq31637);
+var seq31637__$1 = cljs.core.next(seq31637);
+var G__31639 = cljs.core.first(seq31637__$1);
+var seq31637__$2 = cljs.core.next(seq31637__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31637,G__31638,seq31636__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31638,G__31639,seq31637__$2);
 }));
 
 (reagent.impl.util.class_names.cljs$lang$maxFixedArity = (2));
@@ -506,8 +506,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p2,new cljs.core.Keyword(nu
 }
 });
 reagent.impl.util.merge_props = (function reagent$impl$util$merge_props(var_args){
-var G__31646 = arguments.length;
-switch (G__31646) {
+var G__31647 = arguments.length;
+switch (G__31647) {
 case 0:
 return reagent.impl.util.merge_props.cljs$core$IFn$_invoke$arity$0();
 
@@ -580,13 +580,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.merge_pr
 }));
 
 /** @this {Function} */
-(reagent.impl.util.merge_props.cljs$lang$applyTo = (function (seq31643){
-var G__31644 = cljs.core.first(seq31643);
-var seq31643__$1 = cljs.core.next(seq31643);
-var G__31645 = cljs.core.first(seq31643__$1);
-var seq31643__$2 = cljs.core.next(seq31643__$1);
+(reagent.impl.util.merge_props.cljs$lang$applyTo = (function (seq31644){
+var G__31645 = cljs.core.first(seq31644);
+var seq31644__$1 = cljs.core.next(seq31644);
+var G__31646 = cljs.core.first(seq31644__$1);
+var seq31644__$2 = cljs.core.next(seq31644__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31644,G__31645,seq31643__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31645,G__31646,seq31644__$2);
 }));
 
 (reagent.impl.util.merge_props.cljs$lang$maxFixedArity = (2));
