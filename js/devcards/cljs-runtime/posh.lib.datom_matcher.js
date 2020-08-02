@@ -127,10 +127,10 @@ new_patterns = G__24273;
 leftover_patterns = G__24274;
 continue;
 } else {
-var G__24276 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
-var G__24277 = cljs.core.rest(leftover_patterns);
-new_patterns = G__24276;
-leftover_patterns = G__24277;
+var G__24275 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
+var G__24276 = cljs.core.rest(leftover_patterns);
+new_patterns = G__24275;
+leftover_patterns = G__24276;
 continue;
 }
 }

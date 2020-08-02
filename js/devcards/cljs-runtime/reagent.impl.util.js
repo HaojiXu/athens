@@ -50,12 +50,12 @@ return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
 var name_str__$1 = clojure.string.replace(name_str,/(unsafe|UNSAFE)[-_]/,"UNSAFE_");
-var vec__31539 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
-var seq__31540 = cljs.core.seq(vec__31539);
-var first__31541 = cljs.core.first(seq__31540);
-var seq__31540__$1 = cljs.core.next(seq__31540);
-var start = first__31541;
-var parts = seq__31540__$1;
+var vec__31540 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
+var seq__31541 = cljs.core.seq(vec__31540);
+var first__31542 = cljs.core.first(seq__31541);
+var seq__31541__$1 = cljs.core.next(seq__31541);
+var start = first__31542;
+var parts = seq__31541__$1;
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,start,cljs.core.map.cljs$core$IFn$_invoke$arity$2(reagent.impl.util.capitalize,parts));
 }
 });
@@ -522,14 +522,14 @@ return reagent.impl.util.merge_props.cljs$core$IFn$_invoke$arity$2((arguments[(0
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___31656 = arguments.length;
-var i__4790__auto___31657 = (0);
+var len__4789__auto___31657 = arguments.length;
+var i__4790__auto___31658 = (0);
 while(true){
-if((i__4790__auto___31657 < len__4789__auto___31656)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___31657]));
+if((i__4790__auto___31658 < len__4789__auto___31657)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___31658]));
 
-var G__31658 = (i__4790__auto___31657 + (1));
-i__4790__auto___31657 = G__31658;
+var G__31659 = (i__4790__auto___31658 + (1));
+i__4790__auto___31658 = G__31659;
 continue;
 } else {
 }

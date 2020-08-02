@@ -72,8 +72,8 @@ cljc.java_time.local_time.plus_nanos = (function cljc$java_time$local_time$plus_
 return this4264.plusNanos(long4265);
 });
 cljc.java_time.local_time.plus = (function cljc$java_time$local_time$plus(var_args){
-var G__34147 = arguments.length;
-switch (G__34147) {
+var G__34148 = arguments.length;
+switch (G__34148) {
 case 2:
 return cljc.java_time.local_time.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -177,8 +177,8 @@ cljc.java_time.local_time.is_supported = (function cljc$java_time$local_time$is_
 return this4305.isSupported(G__4306);
 });
 cljc.java_time.local_time.parse = (function cljc$java_time$local_time$parse(var_args){
-var G__34159 = arguments.length;
-switch (G__34159) {
+var G__34161 = arguments.length;
+switch (G__34161) {
 case 2:
 return cljc.java_time.local_time.parse.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
